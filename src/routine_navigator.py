@@ -7,6 +7,10 @@ from tf.transformations import euler_from_quaternion
 import math
 import time
 import numpy as np
+from scipy.spatial.transform import Rotation
+
+
+MAX_PEPPER_SPEED = 0.5
 
 def get_inverse(q: Quaternion):
     norm_squared = q.w**2 + q.x**2 + q.y**2 + q.z**2
@@ -38,53 +42,57 @@ def multiply_quaternions(a: Quaternion, b: Quaternion):
         z = w1 * z2 + x1 * y2 - y1 * x2 + z1 * w2
 
         return Quaternion(x, y, z, w)
+    
+    
+def get_matrix_transformation(q: Quaternion, b_xyz: np.ndarray) -> np.ndarray:
+    q_xyzw = np.array([q.x, q.y, q.z, q.w])
+    b_xyz = np.asarray(b_xyz)
+    
+    # 1. Crear el objeto de rotación a partir del cuaternión.
+    # SciPy usa el formato [x, y, z, w] por defecto.
+    rotacion_q = Rotation.from_quat(q_xyzw)
 
-class PIDController:
-    def __init__(self, kp, ki, kd):
-        self.kp = kp
-        self.ki = ki
-        self.kd = kd
-        self.integral = 0
-        self.previous_error = 0
+    # 2. Calcular la rotación inversa. Para un cuaternión unitario, el inverso
+    # es igual a su conjugado. El método inv() lo maneja correctamente.
+    rotacion_inversa = rotacion_q.inv()
 
-    def calculate(self, error, dt):
-        self.integral += error * dt
-        derivative = (error - self.previous_error) / dt
-        output = self.kp * error + self.ki * self.integral + self.kd * derivative
-        self.previous_error = error
-        return output
+    # 3. Obtener la matriz de rotación de 3x3 de la rotación inversa.
+    matriz_rotacion_3x3 = rotacion_inversa.as_matrix()
+
+    # 4. Calcular el vector de traslación.
+    # Es -R_inv * B, lo que significa que rotamos el vector -B.
+    vector_traslacion_3d = -matriz_rotacion_3x3 @ b_xyz
+
+    # 5. Ensamblar la matriz de transformación homogénea de 4x4.
+    matriz_transformacion = np.eye(4)
+    matriz_transformacion[0:3, 0:3] = matriz_rotacion_3x3
+    matriz_transformacion[0:3, 3] = vector_traslacion_3d
+
+    return matriz_transformacion
 
 class RoutineNavigator:
     odometry_info: Odometry
     calibrated = False
-        
+    
     def __init__(self):
         rospy.init_node("routine_navigator")
 
         self.odometry_info = None
         self._init_navigation()
         
-        input("Press enter to set the origin...")
+        print("Calibrando sistema de coordenadas del ROBOT...")
+        print("El punto de origen es el más importante. Este asume que el robot está 'derecho',")
+        print("es decir que el ángulo de rotación del robot será tomado como *0*.\n")
+        time.sleep(0.5)
+        print("Se asume que al momento de settear el origen, el robot está mirando en la dirección del eje Y.")
+        input("Presiona enter para settear el punto de origen.\nRECUERDA QUE EL ROBOT DEBE MIRAR EN LA DIRECCION DEL EJE Y DE TU SISTEMA REFERENCIADO\n> ")
         
         origin_odom = self.odometry_info
         
-        self.origin_ref = np.array([origin_odom.pose.pose.position.x, origin_odom.pose.pose.position.y])
+        self.origin_ref = np.array([origin_odom.pose.pose.position.x, origin_odom.pose.pose.position.y, origin_odom.pose.pose.position.z, 1])
         self.rotation_bias = origin_odom.pose.pose.orientation
         
-        y_change = float(input("Mueve el robot en el eje Y de referencia, indica cuantos metros en el eje Y cambiaste:").strip())
-        y_odom = self.odometry_info
-        y_ref = np.array([y_odom.pose.pose.position.x, y_odom.pose.pose.position.y])
-        
-        x_change = float(input("Devuelve el robot a donde estaba lo más exacto posible, luego mueve el robot en el eje X de referencia e indica cuantos metros en el eje X cambiaste:").strip())
-        x_odom = self.odometry_info
-        x_ref = np.array([x_odom.pose.pose.position.x, x_odom.pose.pose.position.y])
-        
-        print("Calculando transformación lineal...")
-        
-        V = np.column_stack((x_ref - self.origin_ref, y_ref - self.origin_ref))
-        V_prime = np.column_stack((np.array([x_change, 0]), np.array([0, y_change])))
-        
-        self.A = V_prime @ np.linalg.inv(V)
+        self.A = get_matrix_transformation(self.rotation_bias, self.origin_ref)
         
         input("Calibrated, press enter to continue...")
         self.calibrated = True
@@ -141,78 +149,66 @@ class RoutineNavigator:
         
     def read_odom(self, value: Odometry):
         if self.calibrated:
-            current = np.array([value.pose.pose.position.x, value.pose.pose.position.y])
-            transformed = self.A @ (current - self.origin_ref)
+            current = np.array([value.pose.pose.position.x, value.pose.pose.position.y, value.pose.pose.position.z, 1])
+            transformed = self.A @ current
             value.pose.pose.position.x = float(transformed[0])
             value.pose.pose.position.y = float(transformed[1])
+            value.pose.pose.position.z = float(transformed[2])
             value.pose.pose.orientation = multiply_quaternions(get_inverse(self.rotation_bias), value.pose.pose.orientation)
         self.odometry_info = value
             
-        
     def _init_topic(self):  
         self.pub = rospy.Publisher("/cmd_vel", Twist, queue_size=10)
         print("Moving in ten seconds...")
         
-        self.current_position = self.odometry_info
+        self.previous_position = np.array([self.odometry_info.pose.pose.position.x, self.odometry_info.pose.pose.position.y])
         
         self.line = [(0.0, 0.0, 0.0), (1.0, 0.0, 0.0), (2.0, 0.0, 0.0), (2.0, 1.0, 0.0)]
         self.target_index = 1
-        
-        self.linear_pid = PIDController(kp=0.5, ki=0.01, kd=0.1)
-        self.angular_pid = PIDController(kp=1.0, ki=0.01, kd=0.1)
         
         rospy.sleep(10)
         
         while not rospy.is_shutdown() and self.target_index < len(self.line):
             current = self.odometry_info
-            self.move_to_point(current)
+            self.follow_line(current)
+            self.previous_position = np.array([current.pose.pose.position.x, current.pose.pose.position.y])
             rospy.sleep(0.5)
 
         print("Routine complete.")
-
-    def move_to_point(self, odometry_info: Odometry):
-        current_x = odometry_info.pose.pose.position.x
-        current_y = odometry_info.pose.pose.position.y
-        quaternion = (
-            odometry_info.pose.pose.orientation.x,
-            odometry_info.pose.pose.orientation.y,
-            odometry_info.pose.pose.orientation.z,
-            odometry_info.pose.pose.orientation.w,
-        )
-        _, _, current_yaw = euler_from_quaternion(quaternion)
-        print(f"Currently at ({current_x}, {current_y})")
-        target_point = self.line[self.target_index]
-        print(f"Going to ({target_point[0]}, {target_point[1]})")
-        dx = target_point[0] - current_x
-        dy = target_point[1] - current_y
-        distance_to_target = math.sqrt(dx**2 + dy**2)
-
-        if distance_to_target < 0.1:
-            self.target_index += 1
-            if self.target_index < len(self.line):
-                print(f"Reached point. Moving to {self.line[self.target_index]}")
-            return
-
-        target_angle = math.atan2(dy, dx)
-        angular_error = target_angle - current_yaw
-
-        if angular_error > math.pi:
-            angular_error -= 2 * math.pi
-        elif angular_error < -math.pi:
-            angular_error += 2 * math.pi
-
+        
+    
+    def _rotate_left(self, movement_msg: Twist, strength: float = 1.0) -> Twist:
+        if strength > 1.0 or strength < 0.0:
+            raise ValueError("Strength must be a percentage")
+        
+        movement_msg.angular.x = 0.0
+        movement_msg.angular.y = 0.0
+        movement_msg.angular.z = MAX_PEPPER_SPEED * strength
+        
+        return movement_msg
+        
+    
+    def _rotate_right(self, movement_msg: Twist, strength: float = 1.0) -> Twist:
+        movement_msg = self._rotate_left(movement_msg, strength)
+        movement_msg.angular.z *= -1
+        
+        return movement_msg
+    
+    
+    def _move_forward_relative_to_orientation(self, movement_msg: Twist, strength: float = 1.0) -> Twist:
+        if strength > 1.0 or strength < -1.0:
+            raise ValueError("Strength must be a percentage (positive for forward negative for backward)")
+        
+        # The robot will move in the direction he is looking at. By following its own coordinates system. Not the referenced on this script
+        
+        movement_msg.linear.x = MAX_PEPPER_SPEED * strength
+        return movement_msg
+    
+        
+    def follow_line(self, odometry_info: Odometry):
         message = Twist()
         
-        # Prioritize rotation until aligned
-        if abs(angular_error) > 0.1:  # A small tolerance for alignment
-            angular_speed = self.angular_pid.calculate(angular_error, 0.5)
-            message.angular.z = min(max(angular_speed, -0.5), 0.5)
-            message.linear.x = 0.0  # Stop linear movement while rotating
-        else:
-            # Once aligned, move forward
-            linear_speed = self.linear_pid.calculate(distance_to_target, 0.5)
-            message.linear.x = min(max(linear_speed, 0.0), 0.5) # Ensure it only moves forward
-            message.angular.z = 0.0
+        # TODO() Move to follow the path described by the line
         
         self.pub.publish(message)
 
