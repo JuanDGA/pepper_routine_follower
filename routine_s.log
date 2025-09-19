@@ -1,0 +1,3125 @@
+Initilazing Navigation...
+Navigation has been initialized correctly
+Calibrando sistema de coordenadas del ROBOT...
+El punto de origen es el más importante. Este asume que el robot está 'derecho',
+es decir que el ángulo de rotación del robot será tomado como *0*.
+
+Se asume que al momento de settear el origen, el robot está mirando en la dirección del eje Y.
+Presiona enter para settear el punto de origen.
+RECUERDA QUE EL ROBOT DEBE MIRAR EN LA DIRECCION DEL EJE Y DE TU SISTEMA REFERENCIADO
+> Calibrated, press enter to continue...=========================================
+Target: [0.215  0.1525] | Position: [-1.94289029e-16  0.00000000e+00]
+Target angle: 0.616941890547535 | Robot angle: 0.0 | Diff: 0.616941890547535 | Rotation Strength: 0.9491928094942652
+Target distance: 0.2635929627285222
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [-1.94289029e-16  0.00000000e+00]
+Target angle: 0.616941890547535 | Robot angle: 0.0 | Diff: 0.616941890547535 | Rotation Strength: 0.9491928094942652
+Target distance: 0.2635929627285222
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [-0.00107965 -0.00021335]
+Target angle: 0.6152389023596183 | Robot angle: 2.1177855423992753e-05 | Diff: 0.6152177245041943 | Rotation Strength: 0.9486608469690767
+Target distance: 0.2645973945925361
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00066871 0.00021322]
+Target angle: 0.6177518830330602 | Robot angle: -1.5043002838055486e-05 | Diff: 0.6177669260358982 | Rotation Strength: 0.9494455110682065
+Target distance: 0.26292425953778337
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [-0.00112651  0.00018166]
+Target angle: 0.6139166289321234 | Robot angle: 0.0008402579405526467 | Diff: 0.6130763709915708 | Rotation Strength: 0.9479928325736993
+Target distance: 0.26440791122780927
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [-0.00248894  0.00071307]
+Target angle: 0.6093195234147091 | Robot angle: 0.015188953194146482 | Diff: 0.5941305702205626 | Rotation Strength: 0.941714713103096
+Target distance: 0.2652182322790731
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [-0.00051449  0.00025307]
+Target angle: 0.615031554478183 | Robot angle: 0.035201418322841516 | Diff: 0.5798301361553415 | Rotation Strength: 0.9365121111316912
+Target distance: 0.2638666796269548
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00189647 0.00041509]
+Target angle: 0.6198395264368051 | Robot angle: 0.06106785170946116 | Diff: 0.5587716747273439 | Rotation Strength: 0.928059133129997
+Target distance: 0.26180705911588825
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00246011 0.0008548 ]
+Target angle: 0.6197227673145651 | Robot angle: 0.07660915758355191 | Diff: 0.5431136097310132 | Rotation Strength: 0.9211131709969578
+Target distance: 0.26109283958875196
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0035497  0.00104111]
+Target angle: 0.6215727450296229 | Robot angle: 0.07898597491603843 | Diff: 0.5425867701135845 | Rotation Strength: 0.9208691150115247
+Target distance: 0.26009810124830035
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00337904 0.0006693 ]
+Target angle: 0.6223517606964606 | Robot angle: 0.07836294535902111 | Diff: 0.5439888153374395 | Rotation Strength: 0.9215170848794801
+Target distance: 0.2604534348391737
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00386555 0.00032229]
+Target angle: 0.6245247965206397 | Robot angle: 0.07800664654806866 | Diff: 0.5465181499725711 | Rotation Strength: 0.9226737771985292
+Target distance: 0.26026104441864556
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798368262551492 | Diff: 0.5465420388304842 | Rotation Strength: 0.9226846270193979
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798368262551492 | Diff: 0.5465420388304842 | Rotation Strength: 0.9226846270193979
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00353218 0.00029601]
+Target angle: 0.6238584704183849 | Robot angle: 0.07799740916866194 | Diff: 0.545861061249723 | Rotation Strength: 0.9223747938255533
+Target distance: 0.26054691559001575
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00312281 0.00026376]
+Target angle: 0.6230421829171577 | Robot angle: 0.07799740920409892 | Diff: 0.5450447737130588 | Rotation Strength: 0.9220018986221219
+Target distance: 0.26089809091742544
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0038656  0.00032203]
+Target angle: 0.6245257214559992 | Robot angle: 0.07798427768967642 | Diff: 0.5465414437663227 | Rotation Strength: 0.9226843567706108
+Target distance: 0.2602611588029804
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00310624 0.00047634]
+Target angle: 0.6223431337549026 | Robot angle: 0.07799204329642873 | Diff: 0.5443510904584739 | Rotation Strength: 0.9216837232320152
+Target distance: 0.26078757183230733
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0040127  0.00020393]
+Target angle: 0.625224427453952 | Robot angle: 0.07816491845108642 | Diff: 0.5470595090028656 | Rotation Strength: 0.9229193090712212
+Target distance: 0.2602109395737096
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00513361 0.00053663]
+Target angle: 0.6267152689568509 | Robot angle: 0.0837405252478125 | Diff: 0.5429747437090384 | Rotation Strength: 0.9210489088409632
+Target distance: 0.2591076373480316
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00456991 0.00103447]
+Target angle: 0.6238848948314977 | Robot angle: 0.08981799073286423 | Diff: 0.5340669040986334 | Rotation Strength: 0.916825435938284
+Target distance: 0.2592732718763776
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00697282 0.00118624]
+Target angle: 0.6288631315676345 | Robot angle: 0.11149141749828972 | Diff: 0.5173717140693448 | Rotation Strength: 0.9083531497924734
+Target distance: 0.25723755787561076
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.00951387 0.00176179]
+Target angle: 0.6329019252077561 | Robot angle: 0.13768850126575183 | Diff: 0.4952134239420043 | Rotation Strength: 0.8959139651715996
+Target distance: 0.2548461405763477
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.01299758 0.00255058]
+Target angle: 0.6385645203499406 | Robot angle: 0.1721855828370873 | Diff: 0.4663789375128533 | Rotation Strength: 0.8775101690840524
+Target distance: 0.2515746506425269
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.01699125 0.00403913]
+Target angle: 0.6433534154067289 | Robot angle: 0.21291349304225626 | Diff: 0.4304399223644726 | Rotation Strength: 0.8507208053119771
+Target distance: 0.24748352447004737
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.02175681 0.00626208]
+Target angle: 0.6478108588590494 | Robot angle: 0.2567618775073077 | Diff: 0.3910489813517417 | Rotation Strength: 0.8160024830042467
+Target distance: 0.24233955732392032
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0265844  0.00817267]
+Target angle: 0.6536660113340926 | Robot angle: 0.29973229284304415 | Diff: 0.3539337184910485 | Rotation Strength: 0.7778553841813024
+Target distance: 0.23734114079077617
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.03448803 0.01055113]
+Target angle: 0.6663734278497686 | Robot angle: 0.3428502987785951 | Diff: 0.32352312907117353 | Rotation Strength: 0.742616430744624
+Target distance: 0.2296389631665389
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.0410728  0.01369522]
+Target angle: 0.6735584490926647 | Robot angle: 0.3863588201673158 | Diff: 0.2871996289253489 | Rotation Strength: 0.6960100850522517
+Target distance: 0.2225251362070455
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.04917512 0.01811876]
+Target angle: 0.6810385083195714 | Robot angle: 0.42713111590372854 | Diff: 0.2539073924158428 | Rotation Strength: 0.6494049580360228
+Target distance: 0.21343900940343516
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.05595133 0.02217664]
+Target angle: 0.6864545509008924 | Robot angle: 0.45868069205627693 | Diff: 0.22777385884461543 | Rotation Strength: 0.6106519353594659
+Target distance: 0.20562261207991
+Aligned, walking
+=========================================
+Target: [0.215  0.1525] | Position: [0.06498482 0.02902904]
+Target angle: 0.6886424972618155 | Robot angle: 0.4973077916753268 | Diff: 0.19133470558648868 | Rotation Strength: 0.5543036046495449
+Target distance: 0.19429265149585295
+Arrived to point
+=========================================
+Target: [0.215  0.1675] | Position: [0.07368093 0.0347681 ]
+Target angle: 0.7540741966071804 | Robot angle: 0.5305940344514726 | Diff: 0.22348016215570787 | Rotation Strength: 0.6041336752547297
+Target distance: 0.19387840911001572
+Arrived to point
+=========================================
+Target: [0.215  0.1875] | Position: [0.0836483  0.04076926]
+Target angle: 0.840645794433029 | Robot angle: 0.5608501585645929 | Diff: 0.27979563586843614 | Rotation Strength: 0.6859460815117998
+Target distance: 0.19693445433517878
+Arrived to point
+=========================================
+Target: [0.215  0.2575] | Position: [0.0940391  0.04866377]
+Target angle: 1.0458007586872764 | Robot angle: 0.5908248246597401 | Diff: 0.45497593402753633 | Rotation Strength: 0.8694911092176946
+Target distance: 0.24133816313534837
+Aligned, walking
+=========================================
+Target: [0.215  0.2575] | Position: [0.10912458 0.06122492]
+Target angle: 1.0761094041908832 | Robot angle: 0.6222259902544152 | Diff: 0.453883413936468 | Rotation Strength: 0.868699828528413
+Target distance: 0.22301011043888969
+Aligned, walking
+=========================================
+Target: [0.215  0.2575] | Position: [0.12282794 0.07204227]
+Target angle: 1.1095534824942765 | Robot angle: 0.6496798036775067 | Diff: 0.4598736788167699 | Rotation Strength: 0.8729887237565811
+Target distance: 0.2070996347087629
+Aligned, walking
+=========================================
+Target: [0.215  0.2575] | Position: [0.13324347 0.08299267]
+Target angle: 1.1326654846306994 | Robot angle: 0.6810702496884327 | Diff: 0.4515952349422667 | Rotation Strength: 0.867029367906481
+Target distance: 0.19270946006808717
+Arrived to point
+=========================================
+Target: [0.2    0.3275] | Position: [0.14188332 0.09382011]
+Target angle: 1.3270395984192813 | Robot angle: 0.7152599555569816 | Diff: 0.6117796428622997 | Rotation Strength: 0.9475843213860222
+Target distance: 0.24079833368970868
+Aligned, walking
+=========================================
+Target: [0.2    0.3275] | Position: [0.15141061 0.1047334 ]
+Target angle: 1.356041933456762 | Robot angle: 0.749899434548527 | Diff: 0.6061424989082349 | Rotation Strength: 0.945772966849528
+Target distance: 0.2280041414103054
+Aligned, walking
+=========================================
+Target: [0.2    0.3275] | Position: [0.15687526 0.11257469]
+Target angle: 1.372775945418061 | Robot angle: 0.7892823521846615 | Diff: 0.5834935932333996 | Rotation Strength: 0.9378847524362257
+Target distance: 0.21920910136025715
+Aligned, walking
+=========================================
+Target: [0.2    0.3275] | Position: [0.16452491 0.12232886]
+Target angle: 1.3995842397462361 | Robot angle: 0.8330957773682557 | Diff: 0.5664884623779805 | Rotation Strength: 0.9312709024074786
+Target distance: 0.208215467472131
+Aligned, walking
+=========================================
+Target: [0.2    0.3275] | Position: [0.16717035 0.12786003]
+Target angle: 1.4078107469273133 | Robot angle: 0.8791089235655418 | Diff: 0.5287018233617715 | Rotation Strength: 0.914183525333625
+Target distance: 0.20232128862443227
+Aligned, walking
+=========================================
+Target: [0.2    0.3275] | Position: [0.16744664 0.13151805]
+Target angle: 1.4061953006435726 | Robot angle: 0.9277247822562158 | Diff: 0.47847051838735677 | Rotation Strength: 0.8855466604862446
+Target distance: 0.19866717439550086
+Arrived to point
+=========================================
+Target: [0.195  0.4875] | Position: [0.16738651 0.13456772]
+Target angle: 1.4927151937580359 | Robot angle: 0.9757576291213583 | Diff: 0.5169575646366775 | Rotation Strength: 0.9081334260208364
+Target distance: 0.3540108783268913
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16781381 0.13798584]
+Target angle: 1.4931698169049934 | Robot angle: 1.0198334622382657 | Diff: 0.47333635466672774 | Rotation Strength: 0.8821919256746947
+Target distance: 0.35056987555458036
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16840472 0.14017833]
+Target angle: 1.4943729909011587 | Robot angle: 1.0627667450829987 | Diff: 0.43160624581816 | Rotation Strength: 0.8516612949075635
+Target distance: 0.34833841435909246
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16838802 0.14225765]
+Target angle: 1.4938664300938536 | Robot angle: 1.1077556630292227 | Diff: 0.3861107670646309 | Rotation Strength: 0.8112353925832763
+Target distance: 0.34626647905806873
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16739728 0.14479912]
+Target angle: 1.4904251946667273 | Robot angle: 1.1515342433908344 | Diff: 0.33889095127589286 | Rotation Strength: 0.7608684760615847
+Target distance: 0.34381070604997593
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16674223 0.14729451]
+Target angle: 1.4879256737971254 | Robot angle: 1.1958265310652356 | Diff: 0.29209914273188975 | Rotation Strength: 0.7025689050948891
+Target distance: 0.3413770350941368
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16626582 0.15189636]
+Target angle: 1.4853852235636786 | Robot angle: 1.2400698193073412 | Diff: 0.24531540425633747 | Rotation Strength: 0.6368518943881016
+Target distance: 0.3368314938312579
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16735375 0.15772503]
+Target angle: 1.487158207776588 | Robot angle: 1.280691541549083 | Diff: 0.20646666622750498 | Rotation Strength: 0.5779607451093174
+Target distance: 0.33093178281446584
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.16975509 0.16696746]
+Target angle: 1.4921992845622398 | Robot angle: 1.3180809677198164 | Diff: 0.1741183168424234 | Rotation Strength: 0.5270913500075649
+Target distance: 0.321525138345987
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.17098272 0.17743217]
+Target angle: 1.4934925190215482 | Robot angle: 1.357117831714496 | Diff: 0.13637468730705216 | Rotation Strength: 0.4670946845418045
+Target distance: 0.3109966110638641
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.17157489 0.18761477]
+Target angle: 1.4928410413107471 | Robot angle: 1.3922813907891216 | Diff: 0.10055965052162552 | Rotation Strength: 0.4110037733873808
+Target distance: 0.30079874773743326
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.17310166 0.20187108]
+Target angle: 1.4942789017041642 | Robot angle: 1.4199719716618144 | Diff: 0.07430693004234978 | Rotation Strength: 0.3712291415650295
+Target distance: 0.28646712989061024
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.17538123 0.22334597]
+Target angle: 1.496662240700723 | Robot angle: 1.4451632090436863 | Diff: 0.05149903165703673 | Rotation Strength: 0.3380162624554546
+Target distance: 0.26488156882191805
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.177367   0.24397835]
+Target angle: 1.4985141150739567 | Robot angle: 1.4675978649404549 | Diff: 0.030916250133501855 | Rotation Strength: 0.30934547536804624
+Target distance: 0.24415920790216983
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.17911037 0.26718467]
+Target angle: 1.498798766825768 | Robot angle: 1.4871705195017029 | Diff: 0.0116282473240652 | Rotation Strength: 0.2837425658666821
+Target distance: 0.22088758569529737
+Aligned, walking
+=========================================
+Target: [0.195  0.4875] | Position: [0.18010081 0.29516424]
+Target angle: 1.493486232773349 | Robot angle: 1.5024591187608856 | Diff: -0.00897288598753665 | Rotation Strength: 0.28031960204073925
+Target distance: 0.19291197491324713
+Arrived to point
+=========================================
+Target: [0.195  0.6075] | Position: [0.18070344 0.32674069]
+Target angle: 1.5199192217635318 | Robot angle: 1.5144749679439897 | Diff: 0.005444253819542055 | Rotation Strength: 0.27581015226275873
+Target distance: 0.2811230702162357
+Aligned, walking
+=========================================
+Target: [0.195  0.6075] | Position: [0.18280692 0.35984651]
+Target angle: 1.5216015968827126 | Robot angle: 1.5209331963256236 | Diff: 0.000668400557088944 | Rotation Strength: 0.269778860691975
+Target distance: 0.2479534690116499
+Aligned, walking
+=========================================
+Target: [0.195  0.6075] | Position: [0.18388606 0.39421005]
+Target angle: 1.518736232628238 | Robot angle: 1.525413684338747 | Diff: -0.006677451710508819 | Rotation Strength: 0.2773810155945994
+Target distance: 0.2135793069014069
+Aligned, walking
+=========================================
+Target: [0.195  0.6075] | Position: [0.18486116 0.42997242]
+Target angle: 1.5137469623818989 | Robot angle: 1.5287005193783214 | Diff: -0.014953556996422535 | Rotation Strength: 0.28806454194732856
+Target distance: 0.17781686242314715
+Arrived to point
+=========================================
+Target: [0.195  0.7225] | Position: [0.18702593 0.46698626]
+Target angle: 1.5395984530759854 | Robot angle: 1.5205469548679362 | Diff: 0.01905149820804919 | Rotation Strength: 0.2934442585677859
+Target distance: 0.25563813803766
+Aligned, walking
+=========================================
+Target: [0.195  0.7225] | Position: [0.18799596 0.50391278]
+Target angle: 1.5387649585793302 | Robot angle: 1.515907615646741 | Diff: 0.02285734293258912 | Rotation Strength: 0.2984927404938472
+Target distance: 0.21869940353369208
+Aligned, walking
+=========================================
+Target: [0.195  0.7225] | Position: [0.18973118 0.53934767]
+Target angle: 1.5420368161083537 | Robot angle: 1.509577830491561 | Diff: 0.032458985616792724 | Rotation Strength: 0.311447736672117
+Target distance: 0.18322810211550428
+Arrived to point
+=========================================
+Target: [0.195  0.8125] | Position: [0.19111093 0.57312434]
+Target angle: 1.5545510393795032 | Robot angle: 1.5055299011013101 | Diff: 0.0490211382781931 | Rotation Strength: 0.33449555164537437
+Target distance: 0.2394072455114839
+Aligned, walking
+=========================================
+Target: [0.195  0.8125] | Position: [0.19318171 0.61003379]
+Target angle: 1.5618158529360384 | Robot angle: 1.5080122848596682 | Diff: 0.05380356807637021 | Rotation Strength: 0.34130685514921544
+Target distance: 0.2024743790191867
+Aligned, walking
+=========================================
+Target: [0.195  0.8125] | Position: [0.19509997 0.6433392 ]
+Target angle: 1.5713872779916152 | Robot angle: 1.5091092784079017 | Diff: 0.062277999583713495 | Rotation Strength: 0.3535374289960872
+Target distance: 0.1691608277148028
+Arrived to point
+=========================================
+Target: [0.195  0.8875] | Position: [0.19608734 0.67695005]
+Target angle: 1.575960557416523 | Robot angle: 1.5132710911316174 | Diff: 0.06268946628490557 | Rotation Strength: 0.35413633684563284
+Target distance: 0.2105527574239489
+Aligned, walking
+=========================================
+Target: [0.195  0.8875] | Position: [0.1979625  0.71051393]
+Target angle: 1.5875333961546705 | Robot angle: 1.5134570460268826 | Diff: 0.0740763501277879 | Rotation Strength: 0.37088656795791974
+Target distance: 0.17701086032672944
+Arrived to point
+=========================================
+Target: [0.195  0.9575] | Position: [0.19906933 0.74298238]
+Target angle: 1.5897637471475718 | Robot angle: 1.5089860042776007 | Diff: 0.08077774286997119 | Rotation Strength: 0.3808945809400516
+Target distance: 0.2145562116115518
+Aligned, walking
+=========================================
+Target: [0.195  0.9575] | Position: [0.20198142 0.77627523]
+Target angle: 1.609300843689395 | Robot angle: 1.5059808026683656 | Diff: 0.10332004102102932 | Rotation Strength: 0.41526443968009774
+Target distance: 0.18135919270787684
+Arrived to point
+=========================================
+Target: [0.195  1.0475] | Position: [0.20466302 0.80762006]
+Target angle: 1.6110572827075602 | Robot angle: 1.5010297268104367 | Diff: 0.11002755589712354 | Rotation Strength: 0.42566924743726686
+Target distance: 0.24007448852244934
+Aligned, walking
+=========================================
+Target: [0.195  1.0475] | Position: [0.20619363 0.83672865]
+Target angle: 1.6238544289640915 | Robot angle: 1.5001176814082502 | Diff: 0.1237367475558413 | Rotation Strength: 0.44713151117933025
+Target distance: 0.21106837242998142
+Aligned, walking
+=========================================
+Target: [0.195  1.0475] | Position: [0.20805284 0.86690029]
+Target angle: 1.6429458584931673 | Robot angle: 1.5032575062379827 | Diff: 0.1396883522551846 | Rotation Strength: 0.4723491573481231
+Target distance: 0.18107078934475626
+Arrived to point
+=========================================
+Target: [0.2    1.1675] | Position: [0.20896035 0.89299785]
+Target angle: 1.603426929978256 | Robot angle: 1.5033061370629701 | Diff: 0.10012079291528586 | Rotation Strength: 0.4103276066207483
+Target distance: 0.27464835073337907
+Aligned, walking
+=========================================
+Target: [0.2    1.1675] | Position: [0.20873971 0.9180058 ]
+Target angle: 1.605811736521539 | Robot angle: 1.51060807181066 | Diff: 0.09520366471087893 | Rotation Strength: 0.4027752855302932
+Target distance: 0.24964723289968568
+Aligned, walking
+=========================================
+Target: [0.2    1.1675] | Position: [0.20959631 0.94507798]
+Target angle: 1.6139141698929524 | Robot angle: 1.5180485500832042 | Diff: 0.09586561980974828 | Rotation Strength: 0.4037893990493394
+Target distance: 0.22262893708104103
+Aligned, walking
+=========================================
+Target: [0.2    1.1675] | Position: [0.21018685 0.96958145]
+Target angle: 1.6222208703834982 | Robot angle: 1.5278537509788732 | Diff: 0.09436711940462494 | Rotation Strength: 0.40149488944341116
+Target distance: 0.19818053791833692
+Arrived to point
+=========================================
+Target: [0.22   1.2875] | Position: [0.20941629 0.9932964 ]
+Target angle: 1.5348377368869972 | Robot angle: 1.5448655254287669 | Diff: -0.010027788541769667 | Rotation Strength: 0.281676431195381
+Target distance: 0.29439390375966706
+Aligned, walking
+=========================================
+Target: [0.22   1.2875] | Position: [0.20770237 1.01791191]
+Target angle: 1.52521155839713 | Robot angle: 1.5600619979364394 | Diff: -0.03485043953930944 | Rotation Strength: 0.3147219298497176
+Target distance: 0.2698684265753325
+Aligned, walking
+=========================================
+Target: [0.22   1.2875] | Position: [0.20478547 1.04300274]
+Target angle: 1.5086486391666263 | Robot angle: 1.5797137188273265 | Diff: -0.07106507966070019 | Rotation Strength: 0.3664247374543801
+Target distance: 0.24497018405771168
+Aligned, walking
+=========================================
+Target: [0.22   1.2875] | Position: [0.20171596 1.06531588]
+Target angle: 1.4886890354237305 | Robot angle: 1.5987497467906984 | Diff: -0.11006071136696782 | Rotation Strength: 0.4257208506176492
+Target distance: 0.22293516810617497
+Aligned, walking
+=========================================
+Target: [0.22   1.2875] | Position: [0.19704383 1.09111006]
+Target angle: 1.454433611840483 | Robot angle: 1.6181299889855554 | Diff: -0.16369637714507235 | Rotation Strength: 0.510529319008639
+Target distance: 0.19772706549282862
+Arrived to point
+=========================================
+Target: [0.235  1.3825] | Position: [0.19151193 1.11629905]
+Target angle: 1.4088612561571567 | Robot angle: 1.6414196328043582 | Diff: -0.23255837664720147 | Rotation Strength: 0.6178689123833738
+Target distance: 0.2697297900064396
+Aligned, walking
+=========================================
+Target: [0.235  1.3825] | Position: [0.18601164 1.14305814]
+Target angle: 1.3689874365093724 | Robot angle: 1.6562886992114434 | Diff: -0.287301262702071 | Rotation Strength: 0.6961469643617304
+Target distance: 0.24440185223639385
+Aligned, walking
+=========================================
+Target: [0.235  1.3825] | Position: [0.18382732 1.17105359]
+Target angle: 1.3333493049524296 | Robot angle: 1.663647484706578 | Diff: -0.33029817975414844 | Rotation Strength: 0.7507738055976417
+Target distance: 0.21755051158130267
+Aligned, walking
+=========================================
+Target: [0.235  1.3825] | Position: [0.1794761  1.19935584]
+Target angle: 1.2764333840716384 | Robot angle: 1.665165632994416 | Diff: -0.3887322489227776 | Rotation Strength: 0.8137777373852458
+Target distance: 0.19137577408734302
+Arrived to point
+=========================================
+Target: [0.255  1.4925] | Position: [0.17736617 1.22752287]
+Target angle: 1.2857894082686654 | Robot angle: 1.6559340513196616 | Diff: -0.37014464305099626 | Rotation Strength: 0.7951762579911837
+Target distance: 0.2761157207282966
+Aligned, walking
+=========================================
+Target: [0.255  1.4925] | Position: [0.17509562 1.25097729]
+Target angle: 1.2512951459243293 | Robot angle: 1.635320068191266 | Diff: -0.38402492226693674 | Rotation Strength: 0.8091935523188281
+Target distance: 0.25439719083008566
+Aligned, walking
+=========================================
+Target: [0.255  1.4925] | Position: [0.17285282 1.27346239]
+Target angle: 1.21199334556941 | Robot angle: 1.6087301786230315 | Diff: -0.3967368330536214 | Rotation Strength: 0.8213770532397409
+Target distance: 0.23393510974346302
+Aligned, walking
+=========================================
+Target: [0.255  1.4925] | Position: [0.17461129 1.31088298]
+Target angle: 1.1540901730918618 | Robot angle: 1.5416676779704552 | Diff: -0.38757750487859344 | Rotation Strength: 0.8126611203883769
+Target distance: 0.19861290518283573
+Arrived to point
+=========================================
+Target: [0.27   1.5875] | Position: [0.17611994 1.32607404]
+Target angle: 1.2260309683163646 | Robot angle: 1.5015706451445432 | Diff: -0.2755396768281786 | Rotation Strength: 0.6800801282876595
+Target distance: 0.27777148685871145
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.17759818 1.33948541]
+Target angle: 1.2141612095957344 | Robot angle: 1.463886420489188 | Diff: -0.24972521089345356 | Rotation Strength: 0.6433192709552752
+Target distance: 0.26466834786557303
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.17974132 1.34910123]
+Target angle: 1.208869913581605 | Robot angle: 1.4229015460283936 | Diff: -0.21403163244678858 | Rotation Strength: 0.5896618572944631
+Target distance: 0.25491293386683506
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.18184685 1.35369993]
+Target angle: 1.2102339691707602 | Robot angle: 1.3800090715590443 | Diff: -0.16977510238828408 | Rotation Strength: 0.5201944759664139
+Target distance: 0.24986686119005994
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.18415551 1.35710552]
+Target angle: 1.2141333126424687 | Robot angle: 1.338047891861927 | Diff: -0.12391457921945825 | Rotation Strength: 0.44741139144511743
+Target distance: 0.24586763250056504
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.18585388 1.35944479]
+Target angle: 1.2173203959526306 | Robot angle: 1.2979165527144438 | Diff: -0.0805961567618132 | Rotation Strength: 0.3806220145502389
+Target distance: 0.243083826573837
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.18775539 1.36053075]
+Target angle: 1.2231529372001244 | Robot angle: 1.2593039243697408 | Diff: -0.0361509871696164 | Rotation Strength: 0.31651032904995824
+Target distance: 0.24141088413390596
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.19165038 1.36384279]
+Target angle: 1.2338443314855887 | Robot angle: 1.2204396730197162 | Diff: 0.013404658465872465 | Rotation Strength: 0.2860465317290267
+Target distance: 0.23698356836963813
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.19667569 1.36957697]
+Target angle: 1.2462264834286927 | Robot angle: 1.1850417299896456 | Diff: 0.06118475343904706 | Rotation Strength: 0.3519483970202283
+Target distance: 0.2299280372460549
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.204477   1.38206511]
+Target angle: 1.2620481488628847 | Robot angle: 1.154456219270135 | Diff: 0.10759192959274966 | Rotation Strength: 0.4218829373627696
+Target distance: 0.21563106815388808
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.21171823 1.39384962]
+Target angle: 1.2784554555384338 | Robot angle: 1.1318742448424803 | Diff: 0.14658121069595342 | Rotation Strength: 0.483297459414853
+Target distance: 0.20223064669848523
+Aligned, walking
+=========================================
+Target: [0.27   1.5875] | Position: [0.22220674 1.41129575]
+Target angle: 1.3059311164870975 | Robot angle: 1.1135887224747663 | Diff: 0.19234239401233122 | Rotation Strength: 0.5558879157390023
+Target distance: 0.1825709006774536
+Arrived to point
+=========================================
+Target: [0.28   1.6825] | Position: [0.2349875 1.4315166]
+Target angle: 1.3933383506770962 | Robot angle: 1.1013453557420751 | Diff: 0.29199299493502107 | Rotation Strength: 0.7024276754591369
+Target distance: 0.25498782421825794
+Aligned, walking
+=========================================
+Target: [0.28   1.6825] | Position: [0.24876125 1.45495634]
+Target angle: 1.4343623617260564 | Robot angle: 1.0969574366248462 | Diff: 0.3374049251012101 | Rotation Strength: 0.7591429446119304
+Target distance: 0.22967798858827193
+Aligned, walking
+=========================================
+Target: [0.28   1.6825] | Position: [0.26320003 1.48066755]
+Target angle: 1.4877505371691582 | Robot angle: 1.1008774172148215 | Diff: 0.3868731199543367 | Rotation Strength: 0.8119774666730942
+Target distance: 0.2025304303065386
+Aligned, walking
+=========================================
+Target: [0.28   1.6825] | Position: [0.27588743 1.50393617]
+Target angle: 1.5477690386490757 | Robot angle: 1.105966247592323 | Diff: 0.4418027910567526 | Rotation Strength: 0.8596762874870048
+Target distance: 0.17861118687099586
+Arrived to point
+=========================================
+Target: [0.3    1.7775] | Position: [0.2853371  1.52783712]
+Target angle: 1.5121329126824108 | Robot angle: 1.1211681683999757 | Diff: 0.3909647442824351 | Rotation Strength: 0.8159219525021306
+Target distance: 0.2500930905032825
+Aligned, walking
+=========================================
+Target: [0.3    1.7775] | Position: [0.29634556 1.54970609]
+Target angle: 1.5547549374038638 | Robot angle: 1.1526145880117227 | Diff: 0.40214034939214116 | Rotation Strength: 0.8263684159663518
+Target distance: 0.2278232187679436
+Aligned, walking
+=========================================
+Target: [0.3    1.7775] | Position: [0.30473395 1.56969632]
+Target angle: 1.5935732725095777 | Robot angle: 1.1847764225032682 | Diff: 0.4087968500063095 | Rotation Strength: 0.8323649338901474
+Target distance: 0.20785759831359776
+Aligned, walking
+=========================================
+Target: [0.3    1.7775] | Position: [0.30886918 1.58271728]
+Target angle: 1.6162986314662398 | Robot angle: 1.2227465425005786 | Diff: 0.3935520889656612 | Rotation Strength: 0.8183830066674246
+Target distance: 0.19498453825412634
+Arrived to point
+=========================================
+Target: [0.34   1.9225] | Position: [0.31213334 1.59686777]
+Target angle: 1.485427214052196 | Robot angle: 1.2619612287967747 | Diff: 0.22346598525542127 | Rotation Strength: 0.604112090501257
+Target distance: 0.32682242798923683
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.31332607 1.60692236]
+Target angle: 1.486472600244646 | Robot angle: 1.3011609705833447 | Diff: 0.18531162966130132 | Rotation Strength: 0.5448120531501067
+Target distance: 0.3167029283787627
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.31491911 1.61646802]
+Target angle: 1.4890239453716285 | Robot angle: 1.340826290473383 | Diff: 0.14819765489824555 | Rotation Strength: 0.4858676585280597
+Target distance: 0.30705800925684323
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.31408037 1.62152742]
+Target angle: 1.484888699445877 | Robot angle: 1.3844657555460884 | Diff: 0.10042294389978856 | Rotation Strength: 0.41079310744404485
+Target distance: 0.30208660891598565
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.31298645 1.62467773]
+Target angle: 1.4803402480679413 | Robot angle: 1.426246740098967 | Diff: 0.054093507968974386 | Rotation Strength: 0.34172194618977814
+Target distance: 0.29904487437025873
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.31193409 1.62835573]
+Target angle: 1.4756688495297494 | Robot angle: 1.466244131583247 | Diff: 0.009424717946502348 | Rotation Strength: 0.28090026540873925
+Target distance: 0.29548020126108526
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.31054165 1.63334201]
+Target angle: 1.469270291889739 | Robot angle: 1.5051718678067756 | Diff: -0.03590157591703669 | Rotation Strength: 0.3161669376555586
+Target distance: 0.29065467402739487
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.30765082 1.63678726]
+Target angle: 1.458053695697263 | Robot angle: 1.5456813605920647 | Diff: -0.08762766489480178 | Rotation Strength: 0.39122998726127645
+Target distance: 0.2875382408062495
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.30458957 1.64746631]
+Target angle: 1.442751311268606 | Robot angle: 1.5768500643440495 | Diff: -0.1340987530754436 | Rotation Strength: 0.463489892576482
+Target distance: 0.27730385799257834
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.29862747 1.65338395]
+Target angle: 1.418255682218275 | Robot angle: 1.6145906316479026 | Diff: -0.1963349494296276 | Rotation Strength: 0.5621536369002412
+Target distance: 0.2722776766783704
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.29309095 1.67071995]
+Target angle: 1.3865985669671534 | Robot angle: 1.6399281084505377 | Diff: -0.25332954148338427 | Rotation Strength: 0.6485669357211838
+Target distance: 0.2561125725679563
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.28897909 1.68690224]
+Target angle: 1.3575301606205468 | Robot angle: 1.6548159210698241 | Diff: -0.29728576044927735 | Rotation Strength: 0.7094222927850722
+Target distance: 0.24105899112300977
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.28414312 1.70649058]
+Target angle: 1.3177537836158502 | Robot angle: 1.6682027970832118 | Diff: -0.3504490134673617 | Rotation Strength: 0.773998397251837
+Target distance: 0.22311445517498069
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.27824735 1.72953495]
+Target angle: 1.2610753655344809 | Robot angle: 1.6693056706028342 | Diff: -0.40823030506835334 | Rotation Strength: 0.8318610695942628
+Target distance: 0.20260528549953746
+Aligned, walking
+=========================================
+Target: [0.34   1.9225] | Position: [0.27171291 1.75500547]
+Target angle: 1.1836719209403626 | Robot angle: 1.662976704465045 | Diff: -0.4793047835246824 | Rotation Strength: 0.8860838589144485
+Target distance: 0.1808799167950989
+Arrived to point
+=========================================
+Target: [0.35   1.9725] | Position: [0.26676923 1.77914814]
+Target angle: 1.1643078290124222 | Robot angle: 1.6496490752167654 | Diff: -0.48534124620434316 | Rotation Strength: 0.8899057103858808
+Target distance: 0.2105048744942488
+Aligned, walking
+=========================================
+Target: [0.35   1.9725] | Position: [0.26365496 1.80019884]
+Target angle: 1.10624622197016 | Robot angle: 1.6294056383213666 | Diff: -0.5231594163512066 | Rotation Strength: 0.911374662557609
+Target distance: 0.19272559534557684
+Arrived to point
+=========================================
+Target: [0.36   1.9975] | Position: [0.26047061 1.82235193]
+Target angle: 1.0540431595183266 | Robot angle: 1.6011324381426348 | Diff: -0.5470892786243082 | Rotation Strength: 0.9229327902527613
+Target distance: 0.2014520961275575
+Aligned, walking
+=========================================
+Target: [0.36   1.9975] | Position: [0.26091418 1.83845811]
+Target angle: 1.0136241660016658 | Robot angle: 1.5654221101633894 | Diff: -0.5517979441617236 | Rotation Strength: 0.9250380913084986
+Target distance: 0.18738282702683412
+Arrived to point
+=========================================
+Target: [0.365  2.0225] | Position: [0.26189326 1.85443339]
+Target angle: 1.020518653166686 | Robot angle: 1.5248690951047408 | Diff: -0.5043504419380547 | Rotation Strength: 0.9012146932028415
+Target distance: 0.1971734868559112
+Arrived to point
+=========================================
+Target: [0.375  2.0575] | Position: [0.26373287 1.8644557 ]
+Target angle: 1.0479245625990643 | Robot angle: 1.480218899765747 | Diff: -0.43229433716668275 | Rotation Strength: 0.8522138536085067
+Target distance: 0.22281488676239025
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26370006 1.86970136]
+Target angle: 1.0357945225286151 | Robot angle: 1.4401937863653735 | Diff: -0.4043992638367584 | Rotation Strength: 0.828422136483648
+Target distance: 0.21830255914896338
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26473011 1.87149131]
+Target angle: 1.0356720981968452 | Robot angle: 1.3963575590441177 | Diff: -0.3606854608472725 | Rotation Strength: 0.7851939045370404
+Target distance: 0.2162375541377223
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26494431 1.86973882]
+Target angle: 1.0406249590045835 | Robot angle: 1.352059093401203 | Diff: -0.3114341343966194 | Rotation Strength: 0.7276339708642146
+Target distance: 0.21763849522195014
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26574755 1.86562975]
+Target angle: 1.0531747533532343 | Robot angle: 1.3020898084258317 | Diff: -0.24891505507259737 | Rotation Strength: 0.642134934586784
+Target distance: 0.22079468136339223
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26646863 1.86372284]
+Target angle: 1.0602445134099456 | Robot angle: 1.2597978765226223 | Diff: -0.19955336311267668 | Rotation Strength: 0.5671901605545115
+Target distance: 0.22210052783672687
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26729958 1.8638526 ]
+Target angle: 1.0632302153893463 | Robot angle: 1.216553810123953 | Diff: -0.15332359473460677 | Rotation Strength: 0.4940223647622005
+Target distance: 0.22158225508898566
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.26919744 1.86720646]
+Target angle: 1.0633608678671074 | Robot angle: 1.1738361878641363 | Diff: -0.11047531999702898 | Rotation Strength: 0.4263662838659712
+Target distance: 0.21772875519184745
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.27179119 1.8709578 ]
+Target angle: 1.0654435453766773 | Robot angle: 1.135639236703497 | Diff: -0.0701956913268198 | Rotation Strength: 0.3651407674850323
+Target distance: 0.21319017783584546
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.27774466 1.88159869]
+Target angle: 1.0657314945896301 | Robot angle: 1.09811303999642 | Diff: -0.03238154540678995 | Rotation Strength: 0.311342023682018
+Target distance: 0.2009971918066093
+Aligned, walking
+=========================================
+Target: [0.375  2.0575] | Position: [0.28550576 1.89394278]
+Target angle: 1.070125475301655 | Robot angle: 1.0709524896797147 | Diff: -0.000827014378059765 | Rotation Strength: 0.2699778292272864
+Target distance: 0.1864408271363602
+Arrived to point
+=========================================
+Target: [0.4    2.1075] | Position: [0.29432681 1.90723862]
+Target angle: 1.0852535947669164 | Robot angle: 1.0439183000555259 | Diff: 0.041335294711390524 | Rotation Strength: 0.32369305217326405
+Target distance: 0.2264319805289574
+Aligned, walking
+=========================================
+Target: [0.4    2.1075] | Position: [0.30660944 1.92555195]
+Target angle: 1.0965801096580892 | Robot angle: 1.0194727619825192 | Diff: 0.07710734767556993 | Rotation Strength: 0.37539998638814054
+Target distance: 0.20451623680921158
+Aligned, walking
+=========================================
+Target: [0.4    2.1075] | Position: [0.3210765  1.94885574]
+Target angle: 1.1091609311434896 | Robot angle: 1.0000802931625081 | Diff: 0.10908063798098144 | Rotation Strength: 0.4241961518404458
+Target distance: 0.17719175431661457
+Arrived to point
+=========================================
+Target: [0.435  2.1725] | Position: [0.33798939 1.97266077]
+Target angle: 1.118861767470194 | Robot angle: 0.9905536295456985 | Diff: 0.12830813792449547 | Rotation Strength: 0.4543363383714373
+Target distance: 0.22214134076780961
+Aligned, walking
+=========================================
+Target: [0.435  2.1725] | Position: [0.35349407 1.99940122]
+Target angle: 1.130728278282052 | Robot angle: 0.9832981950101018 | Diff: 0.14743008327195017 | Rotation Strength: 0.48464709301076525
+Target distance: 0.19132800036669398
+Arrived to point
+=========================================
+Target: [0.46   2.2225] | Position: [0.37149614 2.02564436]
+Target angle: 1.148285408093023 | Robot angle: 0.9800500633470968 | Diff: 0.16823534474592616 | Rotation Strength: 0.5177474083381537
+Target distance: 0.21583576398125887
+Aligned, walking
+=========================================
+Target: [0.46   2.2225] | Position: [0.38951079 2.05100236]
+Target angle: 1.1808249512826459 | Robot angle: 0.9798548422309654 | Diff: 0.20097010905168045 | Rotation Strength: 0.5694029080859473
+Target distance: 0.18541889693399577
+Arrived to point
+=========================================
+Target: [0.49   2.2675] | Position: [0.40596152 2.07671776]
+Target angle: 1.1558754223530672 | Robot angle: 0.982327016606833 | Diff: 0.1735484057462342 | Rotation Strength: 0.526186883278338
+Target distance: 0.20847140937378109
+Aligned, walking
+=========================================
+Target: [0.49   2.2675] | Position: [0.42106084 2.10077717]
+Target angle: 1.1787102200788633 | Robot angle: 0.989895573813528 | Diff: 0.18881464626533528 | Rotation Strength: 0.5503367442958019
+Target distance: 0.18041371627725106
+Arrived to point
+=========================================
+Target: [0.52   2.3125] | Position: [0.43246372 2.12258617]
+Target angle: 1.1388933055124992 | Robot angle: 1.0048666231842311 | Diff: 0.1340266823282681 | Rotation Strength: 0.46337580193004546
+Target distance: 0.20911686668754653
+Aligned, walking
+=========================================
+Target: [0.52   2.3125] | Position: [0.44433912 2.14470954]
+Target angle: 1.1471735932791098 | Robot angle: 1.0296713034493568 | Diff: 0.11750228982975308 | Rotation Strength: 0.4373418267279273
+Target distance: 0.1840603319217979
+Arrived to point
+=========================================
+Target: [0.545  2.3375] | Position: [0.45364937 2.1657108 ]
+Target angle: 1.082064687969674 | Robot angle: 1.0619053033446058 | Diff: 0.020159384625068277 | Rotation Strength: 0.29490872278419966
+Target distance: 0.1945673851104037
+Arrived to point
+=========================================
+Target: [0.565  2.3575] | Position: [0.45956977 2.18386607]
+Target angle: 1.025100739613956 | Robot angle: 1.0981979246120126 | Diff: -0.07309718499805662 | Rotation Strength: 0.3694332677879414
+Target distance: 0.20313610008044236
+Aligned, walking
+=========================================
+Target: [0.565  2.3575] | Position: [0.46456781 2.20151302]
+Target angle: 0.9987567791262357 | Robot angle: 1.1327258720582751 | Diff: -0.1339690929320394 | Rotation Strength: 0.4632846385508058
+Target distance: 0.18552240251845764
+Arrived to point
+=========================================
+Target: [0.62   2.3725] | Position: [0.46562525 2.21235341]
+Target angle: 0.8037473055675148 | Robot angle: 1.168125820311083 | Diff: -0.3643785147435681 | Rotation Strength: 0.7891327336981859
+Target distance: 0.22243761444725263
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.46499903 2.22271577]
+Target angle: 0.7682837040643204 | Robot angle: 1.2008205134810224 | Diff: -0.4325368094167019 | Rotation Strength: 0.8524081605599494
+Target distance: 0.21554724541506953
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.46310789 2.23175733]
+Target angle: 0.7311920700805623 | Robot angle: 1.2268542448971687 | Diff: -0.49566217481660635 | Rotation Strength: 0.8961800701320761
+Target distance: 0.21076914504717584
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.45966728 2.23686169]
+Target angle: 0.7021557512782497 | Robot angle: 1.2541896456893618 | Diff: -0.5520338944111121 | Rotation Strength: 0.9251421847930507
+Target distance: 0.21001031658439243
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.45387202 2.23948387]
+Target angle: 0.6751582784568342 | Robot angle: 1.269451528714904 | Diff: -0.5942932502580698 | Rotation Strength: 0.9417715321590923
+Target distance: 0.21281869168490228
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.4490919  2.23904654]
+Target angle: 0.662954083646941 | Robot angle: 1.2839307926083992 | Diff: -0.6209767089614582 | Rotation Strength: 0.9504173632552405
+Target distance: 0.21683958024941125
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.44418409 2.23788005]
+Target angle: 0.6534653935701957 | Robot angle: 1.2871743009303458 | Diff: -0.6337089073601501 | Rotation Strength: 0.9541005619867607
+Target distance: 0.22143568759335602
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.43914965 2.23733465]
+Target angle: 0.6418272302692221 | Robot angle: 1.2825898945005996 | Diff: -0.6407626642313775 | Rotation Strength: 0.9560274821184284
+Target distance: 0.22577981006134185
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.43333083 2.23631178]
+Target angle: 0.6302971819605361 | Robot angle: 1.2719562841942489 | Diff: -0.6416591022337128 | Rotation Strength: 0.956266770786582
+Target distance: 0.2310684129791013
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42927168 2.23593978]
+Target angle: 0.621379342588599 | Robot angle: 1.2555321217786695 | Diff: -0.6341527791900705 | Rotation Strength: 0.9542241516116929
+Target distance: 0.23457618898928415
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42696778 2.23548914]
+Target angle: 0.617261160299198 | Robot angle: 1.2293401709169114 | Diff: -0.6120790106177134 | Rotation Strength: 0.9476789001833787
+Target distance: 0.23671377696020793
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42606348 2.23443806]
+Target angle: 0.6186629493515357 | Robot angle: 1.196909246764191 | Diff: -0.5782462974126554 | Rotation Strength: 0.9359099574016462
+Target distance: 0.23805981229322956
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42530304 2.23350468]
+Target angle: 0.6199979734959475 | Robot angle: 1.1561221828104022 | Diff: -0.5361242093144547 | Rotation Strength: 0.9178187472664159
+Target distance: 0.2392208276215714
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42530344 2.23411949]
+Target angle: 0.6179041062563049 | Robot angle: 1.1096323599308855 | Diff: -0.4917282536745806 | Rotation Strength: 0.8938267043152588
+Target distance: 0.2388637969152108
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.4260219  2.23543069]
+Target angle: 0.6151568351631584 | Robot angle: 1.0630467964838033 | Diff: -0.44788996132064485 | Rotation Strength: 0.8642862404492941
+Target distance: 0.2375194731538043
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42702012 2.23661605]
+Target angle: 0.6134959515693659 | Robot angle: 1.0161786263450763 | Diff: -0.4026826747757104 | Rotation Strength: 0.8268632424920512
+Target distance: 0.2360205112344497
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.42977137 2.23972992]
+Target angle: 0.6093488394594226 | Robot angle: 0.9700086963781862 | Diff: -0.36065985691876357 | Rotation Strength: 0.7851664110112468
+Target distance: 0.23198022724198
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.43223105 2.24164339]
+Target angle: 0.6086439332802751 | Robot angle: 0.9270107040674258 | Diff: -0.3183667707871507 | Rotation Strength: 0.7362922840073873
+Target distance: 0.22886814642439676
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.43695281 2.24642926]
+Target angle: 0.6031245046920777 | Robot angle: 0.8501408643192834 | Diff: -0.2470163596272057 | Rotation Strength: 0.6393525156554605
+Target distance: 0.22226134095394615
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.44092756 2.25067038]
+Target angle: 0.5974071227811661 | Robot angle: 0.8113406136630203 | Diff: -0.2139334908818542 | Rotation Strength: 0.589510674509315
+Target distance: 0.2165857654666684
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.44653726 2.25591739]
+Target angle: 0.5917479814625581 | Robot angle: 0.7706424559223839 | Diff: -0.17889447445982576 | Rotation Strength: 0.5346637037224842
+Target distance: 0.20899958707937433
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.45304284 2.26168586]
+Target angle: 0.585965360568947 | Robot angle: 0.733290295440653 | Diff: -0.14732493487170606 | Rotation Strength: 0.4844799036430588
+Target distance: 0.20038579440743506
+Aligned, walking
+=========================================
+Target: [0.62   2.3725] | Position: [0.46191406 2.26837383]
+Target angle: 0.5824446998165222 | Robot angle: 0.7010584257102637 | Diff: -0.11861372589374142 | Rotation Strength: 0.4390837179343027
+Target distance: 0.18929718802915588
+Arrived to point
+=========================================
+Target: [0.675  2.3825] | Position: [0.47461296 2.27893703]
+Target angle: 0.4770087186997758 | Robot angle: 0.6678732516613355 | Diff: -0.1908645329615597 | Rotation Strength: 0.5535640086396514
+Target distance: 0.22556652293909554
+Aligned, walking
+=========================================
+Target: [0.675  2.3825] | Position: [0.49035601 2.28934226]
+Target angle: 0.46726204693691686 | Robot angle: 0.6372793344848127 | Diff: -0.1700172875478958 | Rotation Strength: 0.5205792847903379
+Target distance: 0.20681335827051175
+Aligned, walking
+=========================================
+Target: [0.675  2.3825] | Position: [0.50860808 2.30169102]
+Target angle: 0.45210547611680774 | Robot angle: 0.6071557911568739 | Diff: -0.15505031504006617 | Rotation Strength: 0.49677028558605185
+Target distance: 0.1849766590018957
+Arrived to point
+=========================================
+Target: [0.71   2.3925] | Position: [0.52720401 2.31417649]
+Target angle: 0.4048103090412267 | Robot angle: 0.5809224590553113 | Diff: -0.17611215001408453 | Rotation Strength: 0.530254187957601
+Target distance: 0.19886916815230476
+Arrived to point
+=========================================
+Target: [0.74   2.3925] | Position: [0.54950456 2.3262597 ]
+Target angle: 0.33464795936387004 | Robot angle: 0.5522047864607931 | Diff: -0.21755682709692303 | Rotation Strength: 0.5950808298353958
+Target distance: 0.20168363568765404
+Aligned, walking
+=========================================
+Target: [0.74   2.3925] | Position: [0.5691859  2.33817345]
+Target angle: 0.3079284508056026 | Robot angle: 0.5294380307668645 | Diff: -0.22150957996126186 | Rotation Strength: 0.6011295481926698
+Target distance: 0.17924517234708126
+Arrived to point
+=========================================
+Target: [0.775  2.3925] | Position: [0.58847329 2.34822264]
+Target angle: 0.233064399723661 | Robot angle: 0.5078607434982292 | Diff: -0.2747963437745682 | Rotation Strength: 0.6790496607571088
+Target distance: 0.19170993238893358
+Arrived to point
+=========================================
+Target: [0.81   2.3925] | Position: [0.60789674 2.3565671 ]
+Target angle: 0.17595607737023045 | Robot angle: 0.4795032104537098 | Diff: -0.30354713308347936 | Rotation Strength: 0.7175702626688223
+Target distance: 0.20527275034810138
+Aligned, walking
+=========================================
+Target: [0.81   2.3925] | Position: [0.62663371 2.36366071]
+Target angle: 0.1559990385663026 | Robot angle: 0.4497932774505147 | Diff: -0.2937942388842121 | Rotation Strength: 0.7048189812889198
+Target distance: 0.18562031723146222
+Arrived to point
+=========================================
+Target: [0.84   2.3875] | Position: [0.6430491  2.36942296]
+Target angle: 0.09152804087374644 | Robot angle: 0.4221649229491966 | Diff: -0.33063688207545017 | Rotation Strength: 0.751177047962502
+Target distance: 0.19777875908941694
+Arrived to point
+=========================================
+Target: [0.885  2.3575] | Position: [0.65859132 2.37255279]
+Target angle: -0.0663873363662244 | Robot angle: 0.39172085186737515 | Diff: -0.45810818823359956 | Rotation Strength: 0.8717372656254411
+Target distance: 0.22690852278985255
+Aligned, walking
+=========================================
+Target: [0.885  2.3575] | Position: [0.66782257 2.37280528]
+Target angle: -0.07035731265558987 | Robot angle: 0.35877579241075974 | Diff: -0.4291331050663496 | Rotation Strength: 0.8496611908853812
+Target distance: 0.21771607453476746
+Aligned, walking
+=========================================
+Target: [0.885  2.3575] | Position: [0.67924541 2.37473834]
+Target angle: -0.0835858626868986 | Robot angle: 0.32852064274047965 | Diff: -0.41210650542737826 | Rotation Strength: 0.8352843424164983
+Target distance: 0.20647544616565594
+Aligned, walking
+=========================================
+Target: [0.885  2.3575] | Position: [0.68164447 2.37385615]
+Target angle: -0.08025851676176066 | Robot angle: 0.2931486646765933 | Diff: -0.37340718143835394 | Rotation Strength: 0.798538349214297
+Target distance: 0.20401224713565033
+Aligned, walking
+=========================================
+Target: [0.885  2.3575] | Position: [0.68506417 2.37346661]
+Target angle: -0.07968953250724953 | Robot angle: 0.2557963143275708 | Diff: -0.3354858468348203 | Rotation Strength: 0.7569020187677441
+Target distance: 0.20057234986575656
+Aligned, walking
+=========================================
+Target: [0.885  2.3575] | Position: [0.68775695 2.37193682]
+Target angle: -0.0730627656136944 | Robot angle: 0.2157481042734375 | Diff: -0.2888108698871319 | Rotation Strength: 0.6981759891492395
+Target distance: 0.19777068028029074
+Arrived to point
+=========================================
+Target: [0.925  2.3275] | Position: [0.68922854 2.36999798]
+Target angle: -0.17833577988817328 | Robot angle: 0.1753552446109219 | Diff: -0.3536910244990952 | Rotation Strength: 0.7775882926014788
+Target distance: 0.2395709945432971
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.69030512 2.36717857]
+Target angle: -0.16748077915561632 | Robot angle: 0.13329268223730129 | Diff: -0.3007734613929176 | Rotation Strength: 0.7139779809387374
+Target distance: 0.2380253637846512
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.69175576 2.36568458]
+Target angle: -0.16227125353197192 | Robot angle: 0.09374896890212359 | Diff: -0.2560202224340955 | Rotation Strength: 0.6524611992961086
+Target distance: 0.23634918826625317
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.69255279 2.36355879]
+Target angle: -0.1539001038451424 | Robot angle: 0.0522150680356428 | Diff: -0.2061151718807852 | Rotation Strength: 0.5774148298347377
+Target distance: 0.23522742338421643
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.69512235 2.36257934]
+Target angle: -0.15143179962275877 | Robot angle: 0.013151823411277519 | Diff: -0.16458362303403629 | Rotation Strength: 0.5119407007891378
+Target distance: 0.23253879600304267
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.70381329 2.36103385]
+Target angle: -0.15046298572243977 | Robot angle: -0.02526855830778052 | Diff: -0.12519442741465925 | Rotation Strength: 0.4494266523096433
+Target distance: 0.22371427774743155
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.71258227 2.35894272]
+Target angle: -0.1469559272169323 | Robot angle: -0.06202966491285711 | Diff: -0.08492626230407518 | Rotation Strength: 0.3871417837190315
+Target distance: 0.21473224735010019
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.72390021 2.35627342]
+Target angle: -0.14211574599750243 | Robot angle: -0.09300512001864591 | Diff: -0.049110625978856515 | Rotation Strength: 0.33462238273401546
+Target distance: 0.20314781276072613
+Aligned, walking
+=========================================
+Target: [0.925  2.3275] | Position: [0.73966887 2.35349355]
+Target angle: -0.13934568974961614 | Robot angle: -0.12173253359090364 | Diff: -0.017613156158712506 | Rotation Strength: 0.2915493394552191
+Target distance: 0.18714511471497758
+Arrived to point
+=========================================
+Target: [0.945  2.3025] | Position: [0.76192386 2.34985932]
+Target angle: -0.2531373187118455 | Robot angle: -0.14705748632041749 | Diff: -0.10607983239142804 | Rotation Strength: 0.41953688461553185
+Target distance: 0.18910256263699401
+Arrived to point
+=========================================
+Target: [0.98   2.2625] | Position: [0.78795964 2.34407777]
+Target angle: -0.40169692562366865 | Robot angle: -0.1689969111118481 | Diff: -0.23270001451182054 | Rotation Strength: 0.6180817860908048
+Target distance: 0.20864906798148847
+Aligned, walking
+=========================================
+Target: [0.98   2.2625] | Position: [0.81605408 2.33706587]
+Target angle: -0.4268549554573049 | Robot angle: -0.18564522902735714 | Diff: -0.24120972642994776 | Rotation Strength: 0.6307856674863834
+Target distance: 0.18010645046357535
+Arrived to point
+=========================================
+Target: [1.015  2.1975] | Position: [0.84706597 2.33073544]
+Target angle: -0.6706910942319153 | Robot angle: -0.19734500984662606 | Diff: -0.47334608438528925 | Rotation Strength: 0.8821983630414907
+Target distance: 0.21436772321986883
+Aligned, walking
+=========================================
+Target: [1.015  2.1975] | Position: [0.87653989 2.32142696]
+Target angle: -0.7300665139752183 | Robot angle: -0.2048264050135411 | Diff: -0.5252401089616772 | Rotation Strength: 0.9124387479720275
+Target distance: 0.185820055682493
+Arrived to point
+=========================================
+Target: [1.045  2.1525] | Position: [0.90688134 2.31209651]
+Target angle: -0.8574156744937285 | Robot angle: -0.20203053426862194 | Diff: -0.6553851402251065 | Rotation Strength: 0.9597789067920288
+Target distance: 0.2110635228263361
+Aligned, walking
+=========================================
+Target: [1.045  2.1525] | Position: [0.93555512 2.30107955]
+Target angle: -0.9359213733265364 | Robot angle: -0.19466345370747407 | Diff: -0.7412579196190623 | Rotation Strength: 0.9763161824565666
+Target distance: 0.18453743461484484
+Arrived to point
+=========================================
+Target: [1.07   2.0925] | Position: [0.96320843 2.28877309]
+Target angle: -1.0724965799870363 | Robot angle: -0.18553987397501226 | Diff: -0.886956706012024 | Rotation Strength: 0.9904964584130116
+Target distance: 0.223444765954776
+Aligned, walking
+=========================================
+Target: [1.07   2.0925] | Position: [0.98889322 2.2781858 ]
+Target angle: -1.1589770846124912 | Robot angle: -0.17231806714038322 | Diff: -0.9866590174721077 | Rotation Strength: 0.9949397504919213
+Target distance: 0.20262656728391135
+Aligned, walking
+=========================================
+Target: [1.07   2.0925] | Position: [1.01137062 2.26740129]
+Target angle: -1.2473540436339885 | Robot angle: -0.1625152532770806 | Diff: -1.084838790356908 | Rotation Strength: 0.9972851451370179
+Target distance: 0.18446643293696788
+Arrived to point
+=========================================
+Target: [1.09   2.0425] | Position: [1.03089612 2.25654862]
+Target angle: -1.3013858065506014 | Robot angle: -0.16091088129192954 | Diff: -1.1404749252586717 | Rotation Strength: 0.9980933306643337
+Target distance: 0.22205873091903378
+Aligned, walking
+=========================================
+Target: [1.09   2.0425] | Position: [1.04862624 2.24714574]
+Target angle: -1.3713126197674141 | Robot angle: -0.16393350370734971 | Diff: -1.2073791160600644 | Rotation Strength: 0.9987538059737612
+Target distance: 0.20878617904894953
+Aligned, walking
+=========================================
+Target: [1.09   2.0425] | Position: [1.06220732 2.23902009]
+Target angle: -1.4303039365457542 | Robot angle: -0.1755774102254044 | Diff: -1.2547265263203498 | Rotation Strength: 0.999077810450802
+Target distance: 0.1984756382286911
+Arrived to point
+=========================================
+Target: [1.11   1.9725] | Position: [1.07075987 2.23169918]
+Target angle: -1.4205473844912002 | Robot angle: -0.19611370088937674 | Diff: -1.2244336836018235 | Rotation Strength: 0.9988818789941658
+Target distance: 0.26215263284517487
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.0772423  2.22628999]
+Target angle: -1.4424320106516588 | Robot angle: -0.21958004422572763 | Diff: -1.2228519664259312 | Rotation Strength: 0.998870575951042
+Target distance: 0.2558953411141331
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07720139 2.22273356]
+Target angle: -1.4404672917864514 | Robot angle: -0.25369761929702905 | Diff: -1.1867696724894223 | Rotation Strength: 0.9985793376322941
+Target distance: 0.25237389381264314
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07586693 2.21994696]
+Target angle: -1.433720427402046 | Robot angle: -0.2945680344543091 | Diff: -1.1391523929477367 | Rotation Strength: 0.9980772406843822
+Target distance: 0.24979004411869654
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07491598 2.21840151]
+Target angle: -1.4290776954051156 | Robot angle: -0.33833618375378194 | Diff: -1.0907415116513337 | Rotation Strength: 0.9973850087952624
+Target distance: 0.24839170896154514
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07261143 2.21708684]
+Target angle: -1.4191063886202437 | Robot angle: -0.3893637288428886 | Diff: -1.0297426597773551 | Rotation Strength: 0.9961489285955222
+Target distance: 0.24742802268752148
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06965687 2.2167261 ]
+Target angle: -1.4070870512632205 | Robot angle: -0.4392594924610256 | Diff: -0.967827558802195 | Rotation Strength: 0.9942989162958097
+Target distance: 0.2475357702214403
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06796157 2.21626212]
+Target angle: -1.4000193544186854 | Robot angle: -0.488822331169648 | Diff: -0.9111970232490374 | Rotation Strength: 0.9918443917729562
+Target distance: 0.24736047057630048
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06533927 2.21564762]
+Target angle: -1.3891436686798921 | Robot angle: -0.5399858749384334 | Diff: -0.8491577937414587 | Rotation Strength: 0.9879421282034261
+Target distance: 0.24721518338746673
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06427694 2.21577758]
+Target angle: -1.3850175286300623 | Robot angle: -0.5878727565086153 | Diff: -0.7971447721214471 | Rotation Strength: 0.9832881018835716
+Target distance: 0.2475370217653649
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06268365 2.21589499]
+Target angle: -1.3787896760853173 | Robot angle: -0.6395255426247552 | Diff: -0.7392641334605621 | Rotation Strength: 0.9760209061115722
+Target distance: 0.24795152236864126
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06163331 2.21579322]
+Target angle: -1.3745548870594213 | Robot angle: -0.6888307050954809 | Diff: -0.6857241819639404 | Rotation Strength: 0.9666073234942608
+Target distance: 0.24805428330291396
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.0606467  2.21448242]
+Target angle: -1.3696016587158155 | Robot angle: -0.7312665096207147 | Diff: -0.6383351490951008 | Rotation Strength: 0.955373212749981
+Target distance: 0.24696404282488746
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06014268 2.21328142]
+Target angle: -1.3666171701014238 | Robot angle: -0.7818864967516959 | Diff: -0.584730673349728 | Rotation Strength: 0.9383419756736181
+Target distance: 0.24588908615573762
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06112306 2.21286629]
+Target angle: -1.3701878779700636 | Robot angle: -0.8292826784082488 | Diff: -0.5409051995618146 | Rotation Strength: 0.9200855119719051
+Target distance: 0.24528535955845587
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06136609 2.21134014]
+Target angle: -1.3699172949628027 | Robot angle: -0.8787331841037354 | Diff: -0.4911841108590673 | Rotation Strength: 0.8934975086499203
+Target distance: 0.24374139708658796
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06125791 2.20992788]
+Target angle: -1.3683173477086834 | Robot angle: -0.9264109990169378 | Diff: -0.4419063486917456 | Rotation Strength: 0.8597557981318584
+Target distance: 0.24237943744332455
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06201861 2.20790134]
+Target angle: -1.3697226760185242 | Robot angle: -0.9734276135873428 | Diff: -0.3962950624311814 | Rotation Strength: 0.8209640540548413
+Target distance: 0.24024155255068158
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06389833 2.20429666]
+Target angle: -1.3744698264927206 | Robot angle: -1.0181457999458274 | Diff: -0.35632402654689344 | Rotation Strength: 0.7804737354250993
+Target distance: 0.2363367375767488
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06608556 2.20109262]
+Target angle: -1.381000755662678 | Robot angle: -1.0614437495540128 | Diff: -0.3195570061086652 | Rotation Strength: 0.7377608960388989
+Target distance: 0.23277256111850594
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06724641 2.19684368]
+Target angle: -1.3824825154354357 | Robot angle: -1.105236793544814 | Diff: -0.2772457218906217 | Rotation Strength: 0.6824385370265329
+Target distance: 0.22838116292778185
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.06941879 2.19034837]
+Target angle: -1.3866253563750817 | Robot angle: -1.1442770832832043 | Diff: -0.24234827309187734 | Rotation Strength: 0.6324721347923623
+Target distance: 0.22159591409456
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07206246 2.18137566]
+Target angle: -1.3911275147636744 | Robot angle: -1.1858486308643772 | Diff: -0.20527888389929716 | Rotation Strength: 0.5761152104769438
+Target distance: 0.21229295472976786
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07476163 2.17150711]
+Target angle: -1.3955419965643745 | Robot angle: -1.225120335196019 | Diff: -0.1704216613683558 | Rotation Strength: 0.5212217410794746
+Target distance: 0.20210287454379455
+Aligned, walking
+=========================================
+Target: [1.11   1.9725] | Position: [1.07935356 2.15797664]
+Target angle: -1.4070450811882491 | Robot angle: -1.2618584824423649 | Diff: -0.14518659874588424 | Rotation Strength: 0.4810806856929767
+Target distance: 0.18799145521581917
+Arrived to point
+=========================================
+Target: [1.135  1.9175] | Position: [1.08454192 2.14257756]
+Target angle: -1.3502617076089025 | Robot angle: -1.2951334522703366 | Diff: -0.055128255338566134 | Rotation Strength: 0.34320531170801427
+Target distance: 0.230664100334052
+Aligned, walking
+=========================================
+Target: [1.135  1.9175] | Position: [1.08886534 2.12388286]
+Target angle: -1.350872715084647 | Robot angle: -1.327624259526033 | Diff: -0.023248455558613657 | Rotation Strength: 0.29901437418318044
+Target distance: 0.2114764568064446
+Aligned, walking
+=========================================
+Target: [1.135  1.9175] | Position: [1.0929884  2.10275216]
+Target angle: -1.347787687223342 | Robot angle: -1.3577587330443983 | Diff: 0.009971045821056457 | Rotation Strength: 0.2816033464648653
+Target distance: 0.189956142564795
+Arrived to point
+=========================================
+Target: [1.155  1.8525] | Position: [1.09726575 2.07959735]
+Target angle: -1.32184340614786 | Robot angle: -1.3856307888282058 | Diff: 0.06378738268034567 | Rotation Strength: 0.3557366389057106
+Target distance: 0.2343212574480147
+Aligned, walking
+=========================================
+Target: [1.155  1.8525] | Position: [1.10291829 2.0259949 ]
+Target angle: -1.2791637861710288 | Robot angle: -1.4371791161762344 | Diff: 0.15801533000520562 | Rotation Strength: 0.5014892041426969
+Target distance: 0.18114354730947355
+Arrived to point
+=========================================
+Target: [1.17   1.7925] | Position: [1.1074959  1.99470572]
+Target angle: -1.2710015229876543 | Robot angle: -1.4497026705001423 | Diff: 0.17870114751248778 | Rotation Strength: 0.5343574801480984
+Target distance: 0.21164573190069488
+Aligned, walking
+=========================================
+Target: [1.17   1.7925] | Position: [1.10894769 1.96296425]
+Target angle: -1.2268766440562995 | Robot angle: -1.4590762896369325 | Diff: 0.232199645580633 | Rotation Strength: 0.6173295575704301
+Target distance: 0.18106751502226537
+Arrived to point
+=========================================
+Target: [1.185  1.7175] | Position: [1.11100139 1.93023354]
+Target angle: -1.2360412856553962 | Robot angle: -1.463729244822402 | Diff: 0.2276879591670058 | Rotation Strength: 0.6105219095146136
+Target distance: 0.22523621560833793
+Aligned, walking
+=========================================
+Target: [1.185  1.7175] | Position: [1.11363559 1.89795073]
+Target angle: -1.1941937579869113 | Robot angle: -1.4638352147408473 | Diff: 0.269641456753936 | Rotation Strength: 0.6718558529010956
+Target distance: 0.194049850866908
+Arrived to point
+=========================================
+Target: [1.215  1.6425] | Position: [1.11408796 1.86921193]
+Target angle: -1.1520152774794439 | Robot angle: -1.4582850120405406 | Diff: 0.30626973456109674 | Rotation Strength: 0.7210696623716533
+Target distance: 0.24815627710795896
+Aligned, walking
+=========================================
+Target: [1.215  1.6425] | Position: [1.1168334  1.83957814]
+Target angle: -1.1086618169631985 | Robot angle: -1.4432717293755752 | Diff: 0.3346099124123767 | Rotation Strength: 0.7558744894702163
+Target distance: 0.220173740985959
+Aligned, walking
+=========================================
+Target: [1.215  1.6425] | Position: [1.1189627  1.81584939]
+Target angle: -1.0648796120629767 | Robot angle: -1.4220943662982117 | Diff: 0.3572147542352351 | Rotation Strength: 0.7814437505887828
+Target distance: 0.19817460750320298
+Arrived to point
+=========================================
+Target: [1.245  1.5225] | Position: [1.12206127 1.79205583]
+Target angle: -1.14289870705615 | Robot angle: -1.3988353261095163 | Diff: 0.25593661905336607 | Rotation Strength: 0.6523405020995208
+Target distance: 0.296267239973515
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.1270865  1.77234702]
+Target angle: -1.129845343075118 | Robot angle: -1.3646675397094419 | Diff: 0.2348221966343238 | Rotation Strength: 0.6212658385367369
+Target distance: 0.27627364802091897
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.1270865  1.77234702]
+Target angle: -1.129845343075118 | Robot angle: -1.3646675397094419 | Diff: 0.2348221966343238 | Rotation Strength: 0.6212658385367369
+Target distance: 0.27627364802091897
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.13669762 1.73717678]
+Target angle: -1.1035628553500105 | Robot angle: -1.285660242517891 | Diff: 0.1820973871678806 | Rotation Strength: 0.5397330384352937
+Target distance: 0.2404485914461378
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.14231486 1.72549564]
+Target angle: -1.1024804931435281 | Robot angle: -1.2439798002332947 | Diff: 0.14149930708976655 | Rotation Strength: 0.47522345128810584
+Target distance: 0.227489490283963
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.14981022 1.71617373]
+Target angle: -1.1139753782014497 | Robot angle: -1.1983264907644542 | Diff: 0.08435111256300454 | Rotation Strength: 0.3862734009473009
+Target distance: 0.21580224657411703
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.15672529 1.70441219]
+Target angle: -1.119010101105327 | Robot angle: -1.16059127228948 | Diff: 0.04158117118415294 | Rotation Strength: 0.32403581530749515
+Target distance: 0.20219908730155078
+Aligned, walking
+=========================================
+Target: [1.245  1.5225] | Position: [1.16363928 1.69274778]
+Target angle: -1.124987830172819 | Robot angle: -1.1236272692326046 | Diff: -0.001360560940214306 | Rotation Strength: 0.27064779965298214
+Target distance: 0.18868989110386697
+Arrived to point
+=========================================
+Target: [1.275  1.4175] | Position: [1.17094398 1.68274495]
+Target angle: -1.1969440480245115 | Robot angle: -1.0923626764039613 | Diff: -0.10458137162054992 | Rotation Strength: 0.41721557131274345
+Target distance: 0.2849254937361112
+Aligned, walking
+=========================================
+Target: [1.275  1.4175] | Position: [1.18278741 1.6631921 ]
+Target angle: -1.211747163355308 | Robot angle: -1.063173910827881 | Diff: -0.14857325252742726 | Rotation Strength: 0.48646498305778496
+Target distance: 0.2624266920020001
+Aligned, walking
+=========================================
+Target: [1.275  1.4175] | Position: [1.19333947 1.64581763]
+Target angle: -1.22731207596855 | Robot angle: -1.038975584026241 | Diff: -0.18833649194230917 | Rotation Strength: 0.5495833361083005
+Target distance: 0.2424817128189116
+Aligned, walking
+=========================================
+Target: [1.275  1.4175] | Position: [1.20735426 1.62748456]
+Target angle: -1.2591477221511365 | Robot angle: -1.020850016367873 | Diff: -0.23829770578326315 | Rotation Strength: 0.6264577723523865
+Target distance: 0.22061156454246336
+Aligned, walking
+=========================================
+Target: [1.275  1.4175] | Position: [1.22386846 1.60483211]
+Target angle: -1.3043407450092468 | Robot angle: -1.006240932466329 | Diff: -0.29809981254291795 | Rotation Strength: 0.7104894474906899
+Target distance: 0.19418484462341845
+Arrived to point
+=========================================
+Target: [1.32   1.2675] | Position: [1.23992657 1.5804629 ]
+Target angle: -1.320313783746923 | Robot angle: -1.0033914273993214 | Diff: -0.3169223563476016 | Rotation Strength: 0.7345029697207505
+Target distance: 0.32304416130031227
+Aligned, walking
+=========================================
+Target: [1.32   1.2675] | Position: [1.25390203 1.55660531]
+Target angle: -1.3460300615462037 | Robot angle: -1.0100201082963514 | Diff: -0.33600995324985217 | Rotation Strength: 0.7575154248909172
+Target distance: 0.2965650389291855
+Aligned, walking
+=========================================
+Target: [1.32   1.2675] | Position: [1.26547989 1.53118077]
+Target angle: -1.366903922020871 | Robot angle: -1.021601474925843 | Diff: -0.3453024470950279 | Rotation Strength: 0.768215752954498
+Target distance: 0.2692582266516031
+Aligned, walking
+=========================================
+Target: [1.32   1.2675] | Position: [1.27576164 1.50887928]
+Target angle: -1.3895346930668497 | Robot angle: -1.0453690965227893 | Diff: -0.34416559654406065 | Rotation Strength: 0.7669245557059964
+Target distance: 0.24539964840726036
+Aligned, walking
+=========================================
+Target: [1.32   1.2675] | Position: [1.28883163 1.48499737]
+Target angle: -1.4284608016954103 | Robot angle: -1.0701399578189172 | Diff: -0.3583208438764931 | Rotation Strength: 0.7826439952178211
+Target distance: 0.21971930172275428
+Aligned, walking
+=========================================
+Target: [1.32   1.2675] | Position: [1.29842768 1.46450926]
+Target angle: -1.4617317964083842 | Robot angle: -1.1052271764697972 | Diff: -0.35650461993858684 | Rotation Strength: 0.7806706540028672
+Target distance: 0.19818681104965574
+Arrived to point
+=========================================
+Target: [1.335  1.1575] | Position: [1.30294325 1.45017894]
+Target angle: -1.4617024750578231 | Robot angle: -1.1431166156087713 | Diff: -0.31858585944905204 | Rotation Strength: 0.7365630099874431
+Target distance: 0.2944292705728306
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.30792521 1.43519499]
+Target angle: -1.4736052256829 | Robot angle: -1.1804703911249232 | Diff: -0.29313483455797673 | Rotation Strength: 0.7039448616725288
+Target distance: 0.27901174234959497
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.31233231 1.42090635]
+Target angle: -1.484951842912702 | Robot angle: -1.2161540828748116 | Diff: -0.2687977600378906 | Rotation Strength: 0.670670610254076
+Target distance: 0.26437989453020166
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.3135136  1.41151755]
+Target angle: -1.486410899245402 | Robot angle: -1.2567134911320867 | Diff: -0.2296974081133154 | Rotation Strength: 0.613559448598707
+Target distance: 0.2549246544205826
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.31372432 1.40368532]
+Target angle: -1.4845890977297604 | Robot angle: -1.2945542800238892 | Diff: -0.19003481770587127 | Rotation Strength: 0.5522582643746621
+Target distance: 0.24710294450963038
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.31290631 1.39664126]
+Target angle: -1.4786702246845644 | Robot angle: -1.3334915219125762 | Diff: -0.1451787027719882 | Rotation Strength: 0.4810681368648644
+Target distance: 0.2401596783976588
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.31142414 1.38992528]
+Target angle: -1.4697079450469561 | Robot angle: -1.3743049159896237 | Diff: -0.09540302905733267 | Rotation Strength: 0.40308062414972645
+Target distance: 0.23361791658242884
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.30987943 1.38261545]
+Target angle: -1.4596663567219514 | Robot angle: -1.4098156064733136 | Diff: -0.04985075024863761 | Rotation Strength: 0.33567227728877347
+Target distance: 0.22651271268304438
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.30936052 1.36880426]
+Target angle: -1.4500474477513778 | Robot angle: -1.4448354745897116 | Diff: -0.005211973161665995 | Rotation Strength: 0.275514887365772
+Target distance: 0.212854109136952
+Aligned, walking
+=========================================
+Target: [1.335  1.1575] | Position: [1.30931382 1.35360979]
+Target angle: -1.4405591591916829 | Robot angle: -1.4760550218503572 | Diff: 0.035495862658674326 | Rotation Strength: 0.31560877667967135
+Target distance: 0.1977848096028282
+Arrived to point
+=========================================
+Target: [1.36   1.0675] | Position: [1.30936498 1.33589163]
+Target angle: -1.3843270928901088 | Robot angle: -1.5012253277237937 | Diff: 0.11689823483368489 | Rotation Strength: 0.43639577020894427
+Target distance: 0.2731262897340471
+Aligned, walking
+=========================================
+Target: [1.36   1.0675] | Position: [1.30998311 1.31152339]
+Target angle: -1.368628823953561 | Robot angle: -1.5184804392223894 | Diff: 0.14985161526882873 | Rotation Strength: 0.4884982823898335
+Target distance: 0.2490965745539539
+Aligned, walking
+=========================================
+Target: [1.36   1.0675] | Position: [1.31117086 1.28266614]
+Target angle: -1.3476390528527333 | Robot angle: -1.5286380567338764 | Diff: 0.18099900388114332 | Rotation Strength: 0.5379954706641952
+Target distance: 0.22063715284955518
+Aligned, walking
+=========================================
+Target: [1.36   1.0675] | Position: [1.31057863 1.24883951]
+Target angle: -1.3047232102247255 | Robot angle: -1.5344228857776556 | Diff: 0.22969967555293014 | Rotation Strength: 0.6135628711855983
+Target distance: 0.1879534217369304
+Arrived to point
+=========================================
+Target: [1.375  0.9625] | Position: [1.31149262 1.21461734]
+Target angle: -1.3240338771343843 | Robot angle: -1.5412660958460285 | Diff: 0.21723221871164444 | Rotation Strength: 0.5945827839664122
+Target distance: 0.2599929617809919
+Aligned, walking
+=========================================
+Target: [1.375  0.9625] | Position: [1.3122234  1.18034533]
+Target angle: -1.2902273043042782 | Robot angle: -1.536135050206314 | Diff: 0.245907745902036 | Rotation Strength: 0.6377235602518259
+Target distance: 0.22671014437510517
+Aligned, walking
+=========================================
+Target: [1.375  0.9625] | Position: [1.31269886 1.14542413]
+Target angle: -1.2425339005861553 | Robot angle: -1.5216886630930833 | Diff: 0.27915476250692794 | Rotation Strength: 0.6850665011240791
+Target distance: 0.19324251498187384
+Arrived to point
+=========================================
+Target: [1.395  0.8975] | Position: [1.31397291 1.11444717]
+Target angle: -1.2133522168145965 | Robot angle: -1.504514522817675 | Diff: 0.2911623060030788 | Rotation Strength: 0.7013211106651214
+Target distance: 0.23158467778564823
+Aligned, walking
+=========================================
+Target: [1.395  0.8975] | Position: [1.31607224 1.08492549]
+Target angle: -1.172220560495359 | Robot angle: -1.480186774817763 | Diff: 0.3079662143224038 | Rotation Strength: 0.7232366772540965
+Target distance: 0.2033664332904824
+Aligned, walking
+=========================================
+Target: [1.395  0.8975] | Position: [1.31966859 1.05972162]
+Target angle: -1.1360539577230462 | Robot angle: -1.4488933717419596 | Diff: 0.3128394140189137 | Rotation Strength: 0.7294033559186113
+Target distance: 0.17885937379990996
+Arrived to point
+=========================================
+Target: [1.415  0.8225] | Position: [1.32496797 1.03694196]
+Target angle: -1.1733014831146853 | Robot angle: -1.4121931688543834 | Diff: 0.2388916857396981 | Rotation Strength: 0.6273422264084723
+Target distance: 0.23257497825411472
+Aligned, walking
+=========================================
+Target: [1.415  0.8225] | Position: [1.32826357 1.01912207]
+Target angle: -1.1553408422556481 | Robot angle: -1.3761842840575824 | Diff: 0.22084344180193405 | Rotation Strength: 0.6001122927548888
+Target distance: 0.2149033485441665
+Aligned, walking
+=========================================
+Target: [1.415  0.8225] | Position: [1.33236716 1.00398591]
+Target angle: -1.14353313314357 | Robot angle: -1.3407414902093344 | Diff: 0.19720835706576434 | Rotation Strength: 0.5635217521936516
+Target distance: 0.19941244225850827
+Arrived to point
+=========================================
+Target: [1.435  0.7775] | Position: [1.33600501 0.99254778]
+Target angle: -1.139377402913302 | Robot angle: -1.3033329346005782 | Diff: 0.16395553168727606 | Rotation Strength: 0.5109415861066904
+Target distance: 0.23673942720460484
+Aligned, walking
+=========================================
+Target: [1.435  0.7775] | Position: [1.3391464  0.98227671]
+Target angle: -1.1330023378135787 | Robot angle: -1.2678354606307842 | Diff: 0.13483312281720572 | Rotation Strength: 0.4646526427637896
+Target distance: 0.2261004459720682
+Aligned, walking
+=========================================
+Target: [1.435  0.7775] | Position: [1.34234525 0.97382127]
+Target angle: -1.1298355905611688 | Robot angle: -1.2351154542971512 | Diff: 0.10527986373598264 | Rotation Strength: 0.41829717775586617
+Target distance: 0.21708740765730564
+Aligned, walking
+=========================================
+Target: [1.435  0.7775] | Position: [1.34696279 0.96663765]
+Target angle: -1.1351552954900876 | Robot angle: -1.2003883485018987 | Diff: 0.06523305301181104 | Rotation Strength: 0.3578487431843991
+Target distance: 0.20862311219705476
+Aligned, walking
+=========================================
+Target: [1.435  0.7775] | Position: [1.35095324 0.96144353]
+Target angle: -1.1422058498879895 | Robot angle: -1.1670392608198754 | Diff: 0.024833410931885957 | Rotation Strength: 0.30113359533433937
+Target distance: 0.20223520929902764
+Aligned, walking
+=========================================
+Target: [1.435  0.7775] | Position: [1.35629358 0.95447065]
+Target angle: -1.1523228953617703 | Robot angle: -1.1340088079325952 | Diff: -0.018314087429175174 | Rotation Strength: 0.29247186980136697
+Target distance: 0.19368352965264873
+Arrived to point
+=========================================
+Target: [1.46   0.7225] | Position: [1.36185438 0.94784439]
+Target angle: -1.1600354306405798 | Robot angle: -1.1048880391073306 | Diff: -0.05514739153324921 | Rotation Strength: 0.34323277342147684
+Target distance: 0.245789864976739
+Aligned, walking
+=========================================
+Target: [1.46   0.7225] | Position: [1.36794221 0.93992094]
+Target angle: -1.1702747803053593 | Robot angle: -1.079639597164621 | Diff: -0.09063518314073793 | Rotation Strength: 0.39579945771603686
+Target distance: 0.23610697638265501
+Aligned, walking
+=========================================
+Target: [1.46   0.7225] | Position: [1.37731106 0.92666976]
+Target angle: -1.1859862482357282 | Robot angle: -1.0554847539902887 | Diff: -0.13050149424543944 | Rotation Strength: 0.4578002097818613
+Target distance: 0.22027880252155718
+Aligned, walking
+=========================================
+Target: [1.46   0.7225] | Position: [1.3875152  0.91499343]
+Target angle: -1.210661083928372 | Robot angle: -1.0362500931941936 | Diff: -0.1744109907341782 | Rotation Strength: 0.5275557639028852
+Target distance: 0.20568851383409054
+Aligned, walking
+=========================================
+Target: [1.46   0.7225] | Position: [1.39957431 0.89777516]
+Target angle: -1.2388083542023702 | Robot angle: -1.0197534511438349 | Diff: -0.21905490305853537 | Rotation Strength: 0.5973767740517173
+Target distance: 0.18539860900930663
+Arrived to point
+=========================================
+Target: [1.485  0.6625] | Position: [1.4133929  0.87656511]
+Target angle: -1.2479863809519387 | Robot angle: -1.0111147044053936 | Diff: -0.23687167654654484 | Rotation Strength: 0.6243309268504431
+Target distance: 0.22572427034206838
+Aligned, walking
+=========================================
+Target: [1.485  0.6625] | Position: [1.42798715 0.85340874]
+Target angle: -1.2805883420344786 | Robot angle: -1.005768185203829 | Diff: -0.27482015683064986 | Rotation Strength: 0.6790826994490378
+Target distance: 0.19924008497185985
+Arrived to point
+=========================================
+Target: [1.5    0.6175] | Position: [1.44455093 0.82877432]
+Target angle: -1.3141342041936492 | Robot angle: -1.00808942806946 | Diff: -0.30604477612418934 | Rotation Strength: 0.7207815294848882
+Target distance: 0.21842948135283252
+Aligned, walking
+=========================================
+Target: [1.5    0.6175] | Position: [1.4575659  0.80231872]
+Target angle: -1.34510928697877 | Robot angle: -1.0207676589132433 | Diff: -0.3243416280655267 | Rotation Strength: 0.7436111349936347
+Target distance: 0.18962756417036084
+Arrived to point
+=========================================
+Target: [1.525  0.5625] | Position: [1.46976111 0.778054  ]
+Target angle: -1.3199301775365602 | Robot angle: -1.0355183237936743 | Diff: -0.2844118537428857 | Rotation Strength: 0.6922420533185474
+Target distance: 0.22251935062167622
+Aligned, walking
+=========================================
+Target: [1.525  0.5625] | Position: [1.48035812 0.75503121]
+Target angle: -1.3429542462115243 | Robot angle: -1.0483238055522142 | Diff: -0.2946304406593101 | Rotation Strength: 0.7059253068130851
+Target distance: 0.19763897777437575
+Arrived to point
+=========================================
+Target: [1.55   0.5175] | Position: [1.48765582 0.73491633]
+Target angle: -1.291539159693215 | Robot angle: -1.077862449721537 | Diff: -0.2136767099716783 | Rotation Strength: 0.5891150348180236
+Target distance: 0.22617837134634122
+Aligned, walking
+=========================================
+Target: [1.55   0.5175] | Position: [1.49348234 0.71707703]
+Target angle: -1.2948345971313309 | Robot angle: -1.113768522976391 | Diff: -0.18106607415493992 | Rotation Strength: 0.5381015981809869
+Target distance: 0.20742525548750976
+Aligned, walking
+=========================================
+Target: [1.55   0.5175] | Position: [1.49732809 0.70170798]
+Target angle: -1.2922906232517777 | Robot angle: -1.152325197725232 | Diff: -0.13996542552654567 | Rotation Strength: 0.4727888058587427
+Target distance: 0.1915904774066977
+Arrived to point
+=========================================
+Target: [1.56   0.4875] | Position: [1.49970735 0.68631878]
+Target angle: -1.2763566083278521 | Robot angle: -1.194206651542386 | Diff: -0.08214995678546622 | Rotation Strength: 0.3829567330002527
+Target distance: 0.20775974857163937
+Aligned, walking
+=========================================
+Target: [1.56   0.4875] | Position: [1.49953884 0.67577357]
+Target angle: -1.2600645131655375 | Robot angle: -1.2351650406674868 | Diff: -0.024899472498050912 | Rotation Strength: 0.3012221107023615
+Target distance: 0.19774349050112788
+Arrived to point
+=========================================
+Target: [1.58   0.4575] | Position: [1.49820632 0.66685026]
+Target angle: -1.1983305874611858 | Robot angle: -1.273986089129041 | Diff: 0.07565550166785506 | Rotation Strength: 0.3732353050856474
+Target distance: 0.2247615136338701
+Aligned, walking
+=========================================
+Target: [1.58   0.4575] | Position: [1.49619891 0.65759777]
+Target angle: -1.1741882047878576 | Robot angle: -1.3150767335488576 | Diff: 0.14088852876099978 | Rotation Strength: 0.4742538489804269
+Target distance: 0.21693718094814138
+Aligned, walking
+=========================================
+Target: [1.58   0.4575] | Position: [1.49285513 0.6514508 ]
+Target angle: -1.1485127537444564 | Robot angle: -1.3537536161202128 | Diff: 0.20524086237575645 | Rotation Strength: 0.5760560985914945
+Target distance: 0.21262911703028045
+Aligned, walking
+=========================================
+Target: [1.58   0.4575] | Position: [1.48915815 0.64702696]
+Target angle: -1.1238386710285289 | Robot angle: -1.38607234698297 | Diff: 0.262233675954441 | Rotation Strength: 0.6613758353886121
+Target distance: 0.21017305044081588
+Aligned, walking
+=========================================
+Target: [1.58   0.4575] | Position: [1.4860374 0.6416402]
+Target angle: -1.0989605519770453 | Robot angle: -1.414317054855507 | Diff: 0.31535650287846195 | Rotation Strength: 0.732554483773687
+Target distance: 0.20672828741081267
+Aligned, walking
+=========================================
+Target: [1.58   0.4575] | Position: [1.48329333 0.63499959]
+Target angle: -1.0719329557912887 | Robot angle: -1.4331209282318076 | Diff: 0.3611879724405189 | Rotation Strength: 0.7857329846449252
+Target distance: 0.20213431680600832
+Aligned, walking
+=========================================
+Target: [1.58   0.4575] | Position: [1.4798648  0.62880809]
+Target angle: -1.0418273809465086 | Robot angle: -1.4493931083770673 | Diff: 0.4075657274305584 | Rotation Strength: 0.8312684793771774
+Target distance: 0.19842762287252746
+Arrived to point
+=========================================
+Target: [1.585  0.4425] | Position: [1.47696556 0.62165551]
+Target angle: -1.028158836933033 | Robot angle: -1.4582633928936721 | Diff: 0.43010455596063935 | Rotation Strength: 0.8504494669696481
+Target distance: 0.2092083570423063
+Aligned, walking
+=========================================
+Target: [1.585  0.4425] | Position: [1.47359687 0.60881484]
+Target angle: -0.9806050162506468 | Robot angle: -1.456797866270921 | Diff: 0.4761928500202739 | Rotation Strength: 0.8840687858427861
+Target distance: 0.2001781334048589
+Aligned, walking
+=========================================
+Target: [1.585  0.4425] | Position: [1.47128297 0.5997255 ]
+Target angle: -0.9446207689100152 | Robot angle: -1.451526096579304 | Diff: 0.5069053276692888 | Rotation Strength: 0.9026532858342385
+Target distance: 0.19403973754843584
+Arrived to point
+=========================================
+Target: [1.605  0.4125] | Position: [1.47413422 0.57508701]
+Target angle: -0.8930765895752377 | Robot angle: -1.4093725865598528 | Diff: 0.5162959969846153 | Rotation Strength: 0.9077814540462141
+Target distance: 0.2087112571632628
+Aligned, walking
+=========================================
+Target: [1.605  0.4125] | Position: [1.47521766 0.56414999]
+Target angle: -0.8629436339034786 | Robot angle: -1.3780461132808244 | Diff: 0.5151024793773455 | Rotation Strength: 0.9071434048922256
+Target distance: 0.19960254432013838
+Arrived to point
+=========================================
+Target: [1.62   0.3925] | Position: [1.47540939 0.55218561]
+Target angle: -0.8349670674879293 | Robot angle: -1.3424919935531945 | Diff: 0.5075249260652654 | Rotation Strength: 0.9029993390460989
+Target distance: 0.21542037880932383
+Aligned, walking
+=========================================
+Target: [1.62   0.3925] | Position: [1.47594911 0.54413744]
+Target angle: -0.8110497854767309 | Robot angle: -1.3022073074869622 | Diff: 0.49115752201023133 | Rotation Strength: 0.8934813999052434
+Target distance: 0.2091520354783275
+Aligned, walking
+=========================================
+Target: [1.62   0.3925] | Position: [1.47823231 0.53690036]
+Target angle: -0.7945976543820477 | Robot angle: -1.2557300515823673 | Diff: 0.46113239720031984 | Rotation Strength: 0.8738745757956
+Target distance: 0.20235992834911506
+Aligned, walking
+=========================================
+Target: [1.62   0.3925] | Position: [1.47934481 0.53453317]
+Target angle: -0.7902726648669529 | Robot angle: -1.2100541756740113 | Diff: 0.4197815108070584 | Rotation Strength: 0.8418971516001722
+Target distance: 0.1998932271019153
+Arrived to point
+=========================================
+Target: [1.645  0.3675] | Position: [1.48190185 0.53327581]
+Target angle: -0.7935398744204938 | Robot angle: -1.1672878644834979 | Diff: 0.37374799006300385 | Rotation Strength: 0.7988871660859793
+Target distance: 0.2325567160108595
+Aligned, walking
+=========================================
+Target: [1.645  0.3675] | Position: [1.4847662 0.529818 ]
+Target angle: -0.7918596865654268 | Robot angle: -1.1208678926793945 | Diff: 0.32900820611396764 | Rotation Strength: 0.7492340328668906
+Target distance: 0.22808332822120783
+Aligned, walking
+=========================================
+Target: [1.645  0.3675] | Position: [1.48584689 0.52618081]
+Target angle: -0.7839121660226906 | Robot angle: -1.075768991741871 | Diff: 0.29185682571918026 | Rotation Strength: 0.7022464457468165
+Target distance: 0.22474276437689572
+Aligned, walking
+=========================================
+Target: [1.645  0.3675] | Position: [1.48803687 0.52150379]
+Target angle: -0.7758819005755506 | Robot angle: -1.0310599394309712 | Diff: 0.25517803885542056 | Rotation Strength: 0.6512444559330878
+Target distance: 0.21989677345408978
+Aligned, walking
+=========================================
+Target: [1.645  0.3675] | Position: [1.49068698 0.5172661 ]
+Target angle: -0.7704461872486359 | Robot angle: -0.9878711229667596 | Diff: 0.2174249357181237 | Rotation Strength: 0.594878492755998
+Target distance: 0.21504044615414447
+Aligned, walking
+=========================================
+Target: [1.645  0.3675] | Position: [1.49536228 0.51125928]
+Target angle: -0.7653650798101008 | Robot angle: -0.9481390065188311 | Diff: 0.18277392670873027 | Rotation Strength: 0.5408028003367562
+Target distance: 0.2075046449164993
+Aligned, walking
+=========================================
+Target: [1.645  0.3675] | Position: [1.50235409 0.50491513]
+Target angle: -0.7667230526615492 | Robot angle: -0.911149614373441 | Diff: 0.14442656171189183 | Rotation Strength: 0.4798728940153997
+Target distance: 0.19806759915934505
+Arrived to point
+=========================================
+Target: [1.655  0.3575] | Position: [1.51043272 0.49639505]
+Target angle: -0.7653902966538615 | Robot angle: -0.8817635941944757 | Diff: 0.1163732975406142 | Rotation Strength: 0.4355740014618915
+Target distance: 0.20047826362575819
+Aligned, walking
+=========================================
+Target: [1.655  0.3575] | Position: [1.52209852 0.4840391 ]
+Target angle: -0.7608795941189888 | Robot angle: -0.8498596552286903 | Diff: 0.08898006110970158 | Rotation Strength: 0.39328244236073795
+Target distance: 0.18350734748265604
+Arrived to point
+=========================================
+Target: [1.68   0.3375] | Position: [1.53601596 0.4697761 ]
+Target angle: -0.7430434054449888 | Robot angle: -0.8197954608266009 | Diff: 0.07675205538161212 | Rotation Strength: 0.37486978655252357
+Target distance: 0.19552076938811674
+Arrived to point
+=========================================
+Target: [1.705  0.3225] | Position: [1.55092281 0.45333655]
+Target angle: -0.7040075668395067 | Robot angle: -0.7948406505010208 | Diff: 0.0908330836615141 | Rotation Strength: 0.39610078629664125
+Target distance: 0.2021335802916537
+Aligned, walking
+=========================================
+Target: [1.705  0.3225] | Position: [1.56827332 0.43563031]
+Target angle: -0.6912379206545087 | Robot angle: -0.7729435783919971 | Diff: 0.08170565773748839 | Rotation Strength: 0.3822885786639275
+Target distance: 0.17746169416682525
+Arrived to point
+=========================================
+Target: [1.74   0.3025] | Position: [1.58880065 0.41891513]
+Target angle: -0.6561439627315679 | Robot angle: -0.7526267207354671 | Diff: 0.09648275800389916 | Rotation Strength: 0.404735594352979
+Target distance: 0.19082380337489402
+Arrived to point
+=========================================
+Target: [1.785  0.2775] | Position: [1.60900439 0.40223706]
+Target angle: -0.6165749833659069 | Robot angle: -0.7390339270463429 | Diff: 0.12245894368043597 | Rotation Strength: 0.44512143596980747
+Target distance: 0.21571691222322667
+Aligned, walking
+=========================================
+Target: [1.785  0.2775] | Position: [1.63122606 0.38484257]
+Target angle: -0.6094189926919316 | Robot angle: -0.7285241699022289 | Diff: 0.11910517721029734 | Rotation Strength: 0.43985442338424974
+Target distance: 0.1875335987588496
+Arrived to point
+=========================================
+Target: [1.84   0.2525] | Position: [1.65183946 0.368946  ]
+Target angle: -0.5541755837674613 | Robot angle: -0.7198284557536652 | Diff: 0.16565287198620382 | Rotation Strength: 0.5136413480019915
+Target distance: 0.22127824320022632
+Aligned, walking
+=========================================
+Target: [1.84   0.2525] | Position: [1.67157257 0.35253927]
+Target angle: -0.5359669962226588 | Robot angle: -0.7117511857508751 | Diff: 0.1757841895282164 | Rotation Strength: 0.529734101022407
+Target distance: 0.19589705225090365
+Arrived to point
+=========================================
+Target: [1.875  0.2375] | Position: [1.6924981  0.33818475]
+Target angle: -0.5041409689902361 | Robot angle: -0.7067747837590463 | Diff: 0.20263381476881026 | Rotation Strength: 0.5719978295879837
+Target distance: 0.20843311372731005
+Aligned, walking
+=========================================
+Target: [1.875  0.2375] | Position: [1.71246526 0.32651205]
+Target angle: -0.5010367012867909 | Robot angle: -0.7011730077170499 | Diff: 0.20013630643025904 | Rotation Strength: 0.568100961531956
+Target distance: 0.1853124051266003
+Arrived to point
+=========================================
+Target: [1.885  0.2375] | Position: [1.7310031  0.31399228]
+Target angle: -0.4610146306952778 | Robot angle: -0.6989662744820819 | Diff: 0.2379516437868041 | Rotation Strength: 0.6259420851268813
+Target distance: 0.17194799699637994
+Arrived to point
+=========================================
+Target: [1.895  0.2375] | Position: [1.74636952 0.30181288]
+Target angle: -0.40837718401533163 | Robot angle: -0.6964964973038543 | Diff: 0.2881193132885227 | Rotation Strength: 0.6972474399344617
+Target distance: 0.16194803745874112
+Arrived to point
+=========================================
+Target: [1.915  0.2375] | Position: [1.76312988 0.29023618]
+Target angle: -0.334218629200258 | Robot angle: -0.6877125383980762 | Diff: 0.3534939091978182 | Rotation Strength: 0.7773711929784813
+Target distance: 0.16076578336867683
+Arrived to point
+=========================================
+Target: [1.935  0.2375] | Position: [1.77300736 0.28219751]
+Target angle: -0.26922418665910586 | Robot angle: -0.6759687141030248 | Diff: 0.406744527443919 | Rotation Strength: 0.8305339344190216
+Target distance: 0.16804607383253795
+Arrived to point
+=========================================
+Target: [1.965  0.2375] | Position: [1.78315212 0.2767066 ]
+Target angle: -0.2123506368644672 | Robot angle: -0.6562796180711259 | Diff: 0.4439289812066587 | Rotation Strength: 0.8613012090923988
+Target distance: 0.18602636558964536
+Arrived to point
+=========================================
+Target: [1.99   0.2375] | Position: [1.78997675 0.27190217]
+Target angle: -0.1703244532832966 | Robot angle: -0.6337761730888452 | Diff: 0.46345171980554856 | Rotation Strength: 0.8754930072619964
+Target distance: 0.20296012150958379
+Aligned, walking
+=========================================
+Target: [1.99   0.2375] | Position: [1.79549208 0.26933539]
+Target angle: -0.16223296531751608 | Robot angle: -0.6018132670908969 | Diff: 0.4395803017733808 | Rotation Strength: 0.857960773380817
+Target distance: 0.19709597208023913
+Arrived to point
+=========================================
+Target: [2.     0.2425] | Position: [1.79618389 0.26941146]
+Target angle: -0.1312785417813207 | Robot angle: -0.5660773091854625 | Diff: 0.4347987674041418 | Rotation Strength: 0.8542106336621088
+Target distance: 0.20558509897788063
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.79541873 0.27158042]
+Target angle: -0.14120011154680379 | Robot angle: -0.5228152256375163 | Diff: 0.38161511409071247 | Rotation Strength: 0.8068136208726605
+Target distance: 0.20663777085019
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.79311488 0.27487315]
+Target angle: -0.1552201569784355 | Robot angle: -0.48174487619825257 | Diff: 0.3265247192198171 | Rotation Strength: 0.7462518538145426
+Target distance: 0.20940266060826518
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.79139631 0.27697879]
+Target angle: -0.1638027667685602 | Robot angle: -0.44041230569562595 | Diff: 0.27660953892706575 | Rotation Strength: 0.6815601742663648
+Target distance: 0.21143388357673043
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.79194468 0.27734648]
+Target angle: -0.16594634039241551 | Robot angle: -0.39647539443622604 | Diff: 0.23052905404381052 | Rotation Strength: 0.6148140214471938
+Target distance: 0.21095329568069943
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.79486212 0.27599876]
+Target angle: -0.16187002827894226 | Robot angle: -0.35563269195059055 | Diff: 0.1937626636716483 | Rotation Strength: 0.5581189610746694
+Target distance: 0.20785504161985824
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.79848759 0.2749658 ]
+Target angle: -0.1597380359725502 | Robot angle: -0.3140111214649468 | Diff: 0.1542730854923966 | Rotation Strength: 0.49553336024502725
+Target distance: 0.20411094561785795
+Aligned, walking
+=========================================
+Target: [2.     0.2425] | Position: [1.80561859 0.27378375]
+Target angle: -0.15957167755193247 | Robot angle: -0.2750023900879732 | Diff: 0.11543071253604076 | Rotation Strength: 0.43409931246268096
+Target distance: 0.1968827222807502
+Arrived to point
+=========================================
+Target: [2.025  0.2525] | Position: [1.81878465 0.27089548]
+Target angle: -0.08896971019029598 | Robot angle: -0.24398909670321345 | Diff: 0.15501938651291747 | Rotation Strength: 0.4967210633915742
+Target distance: 0.20703420587494398
+Aligned, walking
+=========================================
+Target: [2.025  0.2525] | Position: [1.8321955  0.27058016]
+Target angle: -0.09350114349856131 | Robot angle: -0.2150698418359256 | Diff: 0.12156869833736428 | Rotation Strength: 0.44372207397838315
+Target distance: 0.19365036929508028
+Arrived to point
+=========================================
+Target: [2.06   0.2625] | Position: [1.84940347 0.26841749]
+Target angle: -0.028091329662571773 | Robot angle: -0.18807568530969077 | Diff: 0.159984355647119 | Rotation Strength: 0.504622878451938
+Target distance: 0.2106796509083236
+Aligned, walking
+=========================================
+Target: [2.06   0.2625] | Position: [1.87156851 0.26407185]
+Target angle: -0.008341571991525853 | Robot angle: -0.16344415236451493 | Diff: 0.15510258037298907 | Rotation Strength: 0.4968534650648013
+Target distance: 0.1884380487188197
+Arrived to point
+=========================================
+Target: [2.09   0.2725] | Position: [1.89617998 0.26158897]
+Target angle: 0.05623530503461893 | Robot angle: -0.14037751799915643 | Diff: 0.19661282303377536 | Rotation Strength: 0.5625890047223144
+Target distance: 0.19412689254198298
+Arrived to point
+=========================================
+Target: [2.14   0.2925] | Position: [1.9212728  0.25744634]
+Target angle: 0.1589107132422094 | Robot angle: -0.11707893923047008 | Diff: 0.2759896524726795 | Rotation Strength: 0.6807030681992683
+Target distance: 0.22151827979282965
+Aligned, walking
+=========================================
+Target: [2.14   0.2925] | Position: [1.94686435 0.25561164]
+Target angle: 0.1887241633218517 | Robot angle: -0.09351575875274509 | Diff: 0.2822399220745968 | Rotation Strength: 0.6892885154612203
+Target distance: 0.19662687564811407
+Arrived to point
+=========================================
+Target: [2.2    0.3275] | Position: [1.97116403 0.2560998 ]
+Target angle: 0.302442735693647 | Robot angle: -0.06676363932396434 | Diff: 0.36920637501761133 | Rotation Strength: 0.7942016816792274
+Target distance: 0.23971627331472795
+Aligned, walking
+=========================================
+Target: [2.2    0.3275] | Position: [1.99464036 0.25660475]
+Target angle: 0.33241445705365713 | Robot angle: -0.04153764740213628 | Diff: 0.3739521044557934 | Rotation Strength: 0.7990958602388133
+Target distance: 0.21725265911926672
+Aligned, walking
+=========================================
+Target: [2.2    0.3275] | Position: [2.0141192  0.25698608]
+Target angle: 0.36257907834755576 | Robot angle: -0.015295903827363677 | Diff: 0.37787498217491944 | Rotation Strength: 0.8030752668877371
+Target distance: 0.19880614933413912
+Arrived to point
+=========================================
+Target: [2.215  0.3375] | Position: [2.029885   0.25962494]
+Target angle: 0.3982099195199731 | Robot angle: 0.01724172501404153 | Diff: 0.38096819450593156 | Rotation Strength: 0.8061708907603788
+Target distance: 0.200828503793942
+Aligned, walking
+=========================================
+Target: [2.215  0.3375] | Position: [2.04678916 0.26208483]
+Target angle: 0.4214702625984952 | Robot angle: 0.05246207799558311 | Diff: 0.36900818460291207 | Rotation Strength: 0.7939953829391231
+Target distance: 0.18434297932380148
+Arrived to point
+=========================================
+Target: [2.245  0.3525] | Position: [2.06118618 0.26379006]
+Target angle: 0.4496370909334426 | Robot angle: 0.08921761141216367 | Diff: 0.36041947952127895 | Rotation Strength: 0.7849081688633589
+Target distance: 0.20410040395913018
+Aligned, walking
+=========================================
+Target: [2.245  0.3525] | Position: [2.07313801 0.26553712]
+Target angle: 0.46843936489367444 | Robot angle: 0.1297427196007166 | Diff: 0.33869664529295784 | Rotation Strength: 0.7606433359747419
+Target distance: 0.1926112267628985
+Arrived to point
+=========================================
+Target: [2.265  0.3575] | Position: [2.078849   0.26686878]
+Target angle: 0.4530880274024853 | Robot angle: 0.16966506551705596 | Diff: 0.28342296188542937 | Rotation Strength: 0.690899224452816
+Target distance: 0.2070415743452771
+Aligned, walking
+=========================================
+Target: [2.265  0.3575] | Position: [2.08592519 0.26928871]
+Target angle: 0.4577057856805298 | Robot angle: 0.2117385025735099 | Diff: 0.24596728310701987 | Rotation Strength: 0.6378111228104644
+Target distance: 0.19962219642823556
+Arrived to point
+=========================================
+Target: [2.295  0.3775] | Position: [2.09172108 0.27192833]
+Target angle: 0.4790026891064132 | Robot angle: 0.25196861526800873 | Diff: 0.22703407383840446 | Rotation Strength: 0.6095316130484266
+Target distance: 0.2290582825684568
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.0422817  0.28771686]
+Target angle: 0.34136165192395396 | Robot angle: 0.289853619962098 | Diff: 0.05150803196185594 | Rotation Strength: 0.33802908358498407
+Target distance: 0.26819312562665687
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.04274364 0.28773895]
+Target angle: 0.341861458267962 | Robot angle: 0.32388501154365734 | Diff: 0.01797644672430465 | Rotation Strength: 0.29202727039285914
+Target distance: 0.2677504706583179
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.04414938 0.28531791]
+Target angle: 0.35215981386528483 | Robot angle: 0.35466812551025884 | Diff: -0.002508311644974004 | Rotation Strength: 0.272092560517719
+Target distance: 0.2672518840316363
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.05006188 0.28369719]
+Target angle: 0.3657356254211446 | Robot angle: 0.3869774768502552 | Diff: -0.021241851429110614 | Rotation Strength: 0.29634368406271283
+Target distance: 0.26228543696371726
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.05578543 0.2838555 ]
+Target angle: 0.3731283731356303 | Robot angle: 0.41296510196934566 | Diff: -0.03983672883371536 | Rotation Strength: 0.32160808110876904
+Target distance: 0.2568908435437698
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.05985621 0.28748093]
+Target angle: 0.36561380310194336 | Robot angle: 0.43400166211256463 | Diff: -0.06838785901062128 | Rotation Strength: 0.3624769914885142
+Target distance: 0.25178569247627086
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.06689378 0.29648765]
+Target angle: 0.3412570748108972 | Robot angle: 0.45826604269690296 | Diff: -0.11700896788600579 | Rotation Strength: 0.4365691632349117
+Target distance: 0.2420649678184263
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.07524536 0.30897092]
+Target angle: 0.30228677331066933 | Robot angle: 0.4789574161875123 | Diff: -0.17667064287684298 | Rotation Strength: 0.5311397063854983
+Target distance: 0.2301919534408075
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.08552301 0.32442217]
+Target angle: 0.24815975921796785 | Robot angle: 0.49406204392795594 | Diff: -0.2459022847099881 | Rotation Strength: 0.6377155279095823
+Target distance: 0.21609688648856698
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.09647321 0.33962115]
+Target angle: 0.188533638849258 | Robot angle: 0.5021240933572848 | Diff: -0.3135904545080268 | Rotation Strength: 0.7303460194808171
+Target distance: 0.20210812516254545
+Aligned, walking
+=========================================
+Target: [2.295  0.3775] | Position: [2.10954483 0.35421011]
+Target angle: 0.12492830639902364 | Robot angle: 0.5083099200908996 | Diff: -0.38338161369187596 | Rotation Strength: 0.8085604198258569
+Target distance: 0.18691184710470143
+Arrived to point
+=========================================
+Target: [2.325  0.3975] | Position: [2.12639485 0.3685973 ]
+Target angle: 0.14451396288067153 | Robot angle: 0.5035064429180989 | Diff: -0.35899248003742734 | Rotation Strength: 0.7833704772810175
+Target distance: 0.200697216019321
+Aligned, walking
+=========================================
+Target: [2.325  0.3975] | Position: [2.14522483 0.38073449]
+Target angle: 0.09298923125336334 | Robot angle: 0.49771643218828965 | Diff: -0.4047272009349263 | Rotation Strength: 0.8287186781975558
+Target distance: 0.18055524022954456
+Arrived to point
+=========================================
+Target: [2.35   0.4275] | Position: [2.16277034 0.39075255]
+Target angle: 0.1938058861261509 | Robot angle: 0.4869808132355695 | Diff: -0.2931749271094186 | Rotation Strength: 0.703998051974479
+Target distance: 0.19080178306789708
+Arrived to point
+=========================================
+Target: [2.37   0.4425] | Position: [2.17812032 0.40133629]
+Target angle: 0.21132567218756337 | Robot angle: 0.46558648499376254 | Diff: -0.25426081280619917 | Rotation Strength: 0.6499170488051874
+Target distance: 0.19624541493182263
+Arrived to point
+=========================================
+Target: [2.395  0.4775] | Position: [2.19286996 0.40879445]
+Target angle: 0.3276557138706946 | Robot angle: 0.4361740104602174 | Diff: -0.10851829658952283 | Rotation Strength: 0.42332196722989224
+Target distance: 0.21348771886431736
+Aligned, walking
+=========================================
+Target: [2.395  0.4775] | Position: [2.20682244 0.41658891]
+Target angle: 0.3130460695123216 | Robot angle: 0.39670915084180036 | Diff: -0.08366308132947875 | Rotation Strength: 0.38523553551561585
+Target distance: 0.19779017655757372
+Arrived to point
+=========================================
+Target: [2.425  0.5175] | Position: [2.21677142 0.42044847]
+Target angle: 0.43614671697760565 | Robot angle: 0.35946459576225376 | Diff: 0.0766821212153519 | Rotation Strength: 0.3747654596647071
+Target distance: 0.22973493652997018
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22496072 0.42236174]
+Target angle: 0.44393604275014287 | Robot angle: 0.31904615912394085 | Diff: 0.12488988362620201 | Rotation Strength: 0.4489469617628916
+Target distance: 0.22151072327873994
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22777254 0.42183505]
+Target angle: 0.4516152943145091 | Robot angle: 0.27932557680320436 | Diff: 0.17228971751130473 | Rotation Strength: 0.5241887051118672
+Target distance: 0.21920413540647293
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22863282 0.42076106]
+Target angle: 0.45774479852736194 | Robot angle: 0.24368478820022466 | Diff: 0.21406001032713728 | Rotation Strength: 0.5897055690214026
+Target distance: 0.21890293211729348
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22571866 0.4153337 ]
+Target angle: 0.47373507980243135 | Robot angle: 0.17243595906139841 | Diff: 0.30129912074103293 | Rotation Strength: 0.7146608815852857
+Target distance: 0.2239441968113459
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22361186 0.41333449]
+Target angle: 0.47734235430461913 | Robot angle: 0.14440619501398055 | Diff: 0.3329361592906386 | Rotation Strength: 0.7539029024176895
+Target distance: 0.22673251768683403
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22094038 0.41156312]
+Target angle: 0.4788473671276088 | Robot angle: 0.12052899210455426 | Diff: 0.3583183750230545 | Rotation Strength: 0.782641321514216
+Target distance: 0.22991944330553926
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22293657 0.41141501]
+Target angle: 0.483453574919372 | Robot angle: 0.10415352778758313 | Diff: 0.3793000471317889 | Rotation Strength: 0.8045060567145073
+Target distance: 0.22821843749051418
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22849287 0.41172395]
+Target angle: 0.49380138836891296 | Robot angle: 0.09724972657753783 | Diff: 0.39655166179137513 | Rotation Strength: 0.8212040325498706
+Target distance: 0.22316725478779628
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.22849287 0.41172395]
+Target angle: 0.49380138836891296 | Robot angle: 0.09724972657753783 | Diff: 0.39655166179137513 | Rotation Strength: 0.8212040325498706
+Target distance: 0.22316725478779628
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.24076488 0.41308326]
+Target angle: 0.5156181870725414 | Robot angle: 0.10650944501520154 | Diff: 0.4091087420573398 | Rotation Strength: 0.8326418042225022
+Target distance: 0.21176740899426105
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.24951097 0.41423805]
+Target angle: 0.5318642220242125 | Robot angle: 0.12058324593559444 | Diff: 0.411280976088618 | Rotation Strength: 0.8345599951991003
+Target distance: 0.2036158912994632
+Aligned, walking
+=========================================
+Target: [2.425  0.5175] | Position: [2.2573727  0.41659478]
+Target angle: 0.5418606886171107 | Robot angle: 0.14338962794458254 | Diff: 0.39847106067252813 | Rotation Strength: 0.8229911271943359
+Target distance: 0.19565473633386202
+Arrived to point
+=========================================
+Target: [2.435  0.5475] | Position: [2.2670022  0.41970826]
+Target angle: 0.6502982422066133 | Robot angle: 0.17263408680850123 | Diff: 0.477664155398112 | Rotation Strength: 0.8850253336573385
+Target distance: 0.21107815755817655
+Aligned, walking
+=========================================
+Target: [2.435  0.5475] | Position: [2.27398649 0.42253151]
+Target angle: 0.6600198237580508 | Robot angle: 0.20871323476711412 | Diff: 0.4513065889909367 | Rotation Strength: 0.8668173717345844
+Target distance: 0.20381970514945705
+Aligned, walking
+=========================================
+Target: [2.435  0.5475] | Position: [2.28138295 0.42463891]
+Target angle: 0.6746117426425191 | Robot angle: 0.2470333413349186 | Diff: 0.4275784013076005 | Rotation Strength: 0.8483925266114797
+Target distance: 0.19670547801232593
+Arrived to point
+=========================================
+Target: [2.455  0.5875] | Position: [2.28706526 0.42719197]
+Target angle: 0.7621673633071921 | Robot angle: 0.2911085631664081 | Diff: 0.47105880014078405 | Rotation Strength: 0.8806766461885447
+Target distance: 0.2321653351550271
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.29135825 0.42957693]
+Target angle: 0.767616145641357 | Robot angle: 0.33466437933735227 | Diff: 0.4329517663040048 | Rotation Strength: 0.8527401992342303
+Target distance: 0.22741661823176026
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.29614896 0.43175865]
+Target angle: 0.7755136654294668 | Robot angle: 0.37924330394406436 | Diff: 0.3962703614854024 | Rotation Strength: 0.820940939794431
+Target distance: 0.22246127521307546
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.29965308 0.43415636]
+Target angle: 0.7789086380540442 | Robot angle: 0.4222890670666626 | Diff: 0.3566195709873816 | Rotation Strength: 0.7807959301668764
+Target distance: 0.2182817823928607
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.30255202 0.43721573]
+Target angle: 0.7782510386019608 | Robot angle: 0.4676612074234452 | Diff: 0.3105898311785156 | Rotation Strength: 0.7265674358311864
+Target distance: 0.21406949497863328
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.3072977  0.44141238]
+Target angle: 0.7799021701212379 | Robot angle: 0.5108930052963987 | Diff: 0.26900916482483916 | Rotation Strength: 0.670967800735101
+Target distance: 0.20774398285861945
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.31165156 0.44528185]
+Target angle: 0.7814401319102164 | Robot angle: 0.5525442776646186 | Diff: 0.22889585424559789 | Rotation Strength: 0.6123488421799961
+Target distance: 0.20192765845395014
+Aligned, walking
+=========================================
+Target: [2.455  0.5875] | Position: [2.31762215 0.45003902]
+Target angle: 0.7857006178953561 | Robot angle: 0.5921255236865055 | Diff: 0.19357509420885055 | Rotation Strength: 0.5578244480604023
+Target distance: 0.19434041152151987
+Arrived to point
+=========================================
+Target: [2.47   0.6225] | Position: [2.32543913 0.45636987]
+Target angle: 0.8547104626137423 | Robot angle: 0.6283250388519379 | Diff: 0.22638542376180437 | Rotation Strength: 0.608548352600075
+Target distance: 0.22022049517416473
+Aligned, walking
+=========================================
+Target: [2.47   0.6225] | Position: [2.33269184 0.46465478]
+Target angle: 0.8548671603501519 | Robot angle: 0.6657275178072788 | Diff: 0.18913964254287308 | Rotation Strength: 0.5508486960527867
+Target distance: 0.20920956778434704
+Aligned, walking
+=========================================
+Target: [2.47   0.6225] | Position: [2.33936846 0.47441506]
+Target angle: 0.847937144574721 | Robot angle: 0.6960556403454818 | Diff: 0.15188150422923918 | Rotation Strength: 0.4917276765286712
+Target distance: 0.19746834774209485
+Arrived to point
+=========================================
+Target: [2.5    0.6875] | Position: [2.35009537 0.48542001]
+Target angle: 0.9325584935755327 | Robot angle: 0.7223147552075382 | Diff: 0.21024373836799448 | Rotation Strength: 0.583814739953409
+Target distance: 0.2516102603971135
+Aligned, walking
+=========================================
+Target: [2.5    0.6875] | Position: [2.36261506 0.49861545]
+Target angle: 0.9419503193275265 | Robot angle: 0.7503129153057349 | Diff: 0.19163740402179164 | Rotation Strength: 0.5547796316038565
+Target distance: 0.2335636909528624
+Aligned, walking
+=========================================
+Target: [2.5    0.6875] | Position: [2.37652767 0.51443086]
+Target angle: 0.9511152023178129 | Robot angle: 0.7787677295238096 | Diff: 0.1723474727940033 | Rotation Strength: 0.5242804095544817
+Target distance: 0.21259902184374604
+Aligned, walking
+=========================================
+Target: [2.5    0.6875] | Position: [2.389342   0.52993357]
+Target angle: 0.9585322329748731 | Robot angle: 0.8061013531300931 | Diff: 0.15243087984478 | Rotation Strength: 0.49260182004246944
+Target distance: 0.19254187714142798
+Arrived to point
+=========================================
+Target: [2.52   0.7475] | Position: [2.40273383 0.54639077]
+Target angle: 1.0428983013929596 | Robot angle: 0.8332576730802441 | Diff: 0.20964062831271546 | Rotation Strength: 0.5828815335909818
+Target distance: 0.2328009370080417
+Aligned, walking
+=========================================
+Target: [2.52   0.7475] | Position: [2.4146047  0.56309103]
+Target angle: 1.0515735959065564 | Robot angle: 0.8613030512760247 | Diff: 0.19027054463053172 | Rotation Strength: 0.5526293080015892
+Target distance: 0.21240253669029432
+Aligned, walking
+=========================================
+Target: [2.52   0.7475] | Position: [2.42662794 0.58193955]
+Target angle: 1.0572866205073925 | Robot angle: 0.8886787002556193 | Diff: 0.16860792025177318 | Rotation Strength: 0.5183396083910503
+Target distance: 0.19007525484189738
+Arrived to point
+=========================================
+Target: [2.54   0.8025] | Position: [2.44001869 0.6011436 ]
+Target angle: 1.1099213120554445 | Robot angle: 0.9159437592582513 | Diff: 0.1939775527971932 | Rotation Strength: 0.5584563199255888
+Target distance: 0.22481250370877406
+Aligned, walking
+=========================================
+Target: [2.54   0.8025] | Position: [2.45103514 0.61899487]
+Target angle: 1.1193755562119012 | Robot angle: 0.9436458738295572 | Diff: 0.175729682382344 | Rotation Strength: 0.5296476561057624
+Target distance: 0.2039335206638914
+Aligned, walking
+=========================================
+Target: [2.54   0.8025] | Position: [2.46211336 0.63738059]
+Target angle: 1.1300448434817607 | Robot angle: 0.9711452850350275 | Diff: 0.1588995584467332 | Rotation Strength: 0.5028964694184765
+Target distance: 0.1825671023744356
+Arrived to point
+=========================================
+Target: [2.55   0.8575] | Position: [2.47179821 0.65411501]
+Target angle: 1.2037218768105005 | Robot angle: 0.9971726319113046 | Diff: 0.2065492448991959 | Rotation Strength: 0.5780889726747002
+Target distance: 0.2179012905635389
+Aligned, walking
+=========================================
+Target: [2.55   0.8575] | Position: [2.48094604 0.6725677 ]
+Target angle: 1.2134280067306769 | Robot angle: 1.0246603452363772 | Diff: 0.1887676614942997 | Rotation Strength: 0.5502627224885246
+Target distance: 0.19740416808829805
+Arrived to point
+=========================================
+Target: [2.57   0.9075] | Position: [2.4888186  0.69113599]
+Target angle: 1.2118437422958896 | Robot angle: 1.052091071334904 | Diff: 0.15975267096098555 | Rotation Strength: 0.504254169895543
+Target distance: 0.23109262994330454
+Aligned, walking
+=========================================
+Target: [2.57   0.9075] | Position: [2.49716646 0.70913997]
+Target angle: 1.2189004244209052 | Robot angle: 1.077752268467222 | Diff: 0.14114815595368313 | Rotation Strength: 0.4746659803279769
+Target distance: 0.21130883766271047
+Aligned, walking
+=========================================
+Target: [2.57   0.9075] | Position: [2.50249913 0.72786515]
+Target angle: 1.2113533080295635 | Robot angle: 1.1080867381268646 | Diff: 0.10326656990269889 | Rotation Strength: 0.41518178430369046
+Target distance: 0.19189853268025983
+Arrived to point
+=========================================
+Target: [2.575  0.9425] | Position: [2.50802433 0.74580164]
+Target angle: 1.2426102652666255 | Robot angle: 1.134216335161037 | Diff: 0.10839393010558851 | Rotation Strength: 0.4231286986277295
+Target distance: 0.20778831552470498
+Aligned, walking
+=========================================
+Target: [2.575  0.9425] | Position: [2.51281815 0.76468202]
+Target angle: 1.2343943021457315 | Robot angle: 1.1592975547647963 | Diff: 0.07509674738093519 | Rotation Strength: 0.3724035566581466
+Target distance: 0.1883767924457085
+Arrived to point
+=========================================
+Target: [2.58   0.9975] | Position: [2.51504781 0.78219889]
+Target angle: 1.2777983148429364 | Robot angle: 1.187717177460767 | Diff: 0.09008113738216927 | Rotation Strength: 0.39495627436046665
+Target distance: 0.2248852050454094
+Aligned, walking
+=========================================
+Target: [2.58   0.9975] | Position: [2.51679266 0.80015886]
+Target angle: 1.2608259876204304 | Robot angle: 1.2171792202234597 | Diff: 0.04364676739697071 | Rotation Strength: 0.3269227839740141
+Target distance: 0.2072165429791982
+Aligned, walking
+=========================================
+Target: [2.58   0.9975] | Position: [2.51803502 0.81870597]
+Target angle: 1.2371787996135923 | Robot angle: 1.239557678040181 | Diff: -0.002378878426588571 | Rotation Strength: 0.27192939171627917
+Target distance: 0.18922728154759952
+Arrived to point
+=========================================
+Target: [2.595  1.0425] | Position: [2.51809984 0.83739113]
+Target angle: 1.2120926120872042 | Robot angle: 1.2630811883005357 | Diff: -0.05098857621333153 | Rotation Strength: 0.33728949755017545
+Target distance: 0.21905087380126384
+Aligned, walking
+=========================================
+Target: [2.595  1.0425] | Position: [2.51665565 0.85685831]
+Target angle: 1.171453161005621 | Robot angle: 1.2834795817447038 | Diff: -0.11202642073908287 | Rotation Strength: 0.4287831356264291
+Target distance: 0.20149608799261248
+Aligned, walking
+=========================================
+Target: [2.595  1.0425] | Position: [2.51374181 0.87676651]
+Target angle: 1.1149433821236316 | Robot angle: 1.3003253620028588 | Diff: -0.1853819798792271 | Rotation Strength: 0.5449231174050373
+Target distance: 0.18458191337735913
+Arrived to point
+=========================================
+Target: [2.61   1.0925] | Position: [2.51169608 0.89803831]
+Target angle: 1.1027439341891032 | Robot angle: 1.3128687058055641 | Diff: -0.21012477161646093 | Rotation Strength: 0.5836307072419009
+Target distance: 0.21789678096819842
+Aligned, walking
+=========================================
+Target: [2.61   1.0925] | Position: [2.50924938 0.91949411]
+Target angle: 1.0434531057907988 | Robot angle: 1.3208517737877248 | Diff: -0.27739866799692603 | Rotation Strength: 0.6826495128598603
+Target distance: 0.20020420724081045
+Aligned, walking
+=========================================
+Target: [2.61   1.0925] | Position: [2.5087843  0.94354342]
+Target angle: 0.9739630063574056 | Robot angle: 1.3239677776315402 | Diff: -0.35000477127413454 | Rotation Strength: 0.7735033029985948
+Target distance: 0.18009075711320233
+Arrived to point
+=========================================
+Target: [2.625  1.1525] | Position: [2.50817141 0.96769862]
+Target angle: 1.0070472386342493 | Robot angle: 1.3199186636306308 | Diff: -0.31287142499638154 | Rotation Strength: 0.7294435765531413
+Target distance: 0.21863318443677265
+Aligned, walking
+=========================================
+Target: [2.625  1.1525] | Position: [2.50671412 0.99162538]
+Target angle: 0.9367908583407258 | Robot angle: 1.3106748764110199 | Diff: -0.37388401807029403 | Rotation Strength: 0.7990262642083976
+Target distance: 0.19968022370880334
+Arrived to point
+=========================================
+Target: [2.635  1.2025] | Position: [2.50783908 1.01224695]
+Target angle: 0.9816100181019678 | Robot angle: 1.2956241354446743 | Diff: -0.31401411734270646 | Rotation Strength: 0.7308768623634703
+Target distance: 0.2288364535674589
+Aligned, walking
+=========================================
+Target: [2.635  1.2025] | Position: [2.50967655 1.03189518]
+Target angle: 0.9372351578031912 | Robot angle: 1.2752453032725892 | Diff: -0.338010145469398 | Rotation Strength: 0.7598467338840855
+Target distance: 0.21168838378225563
+Aligned, walking
+=========================================
+Target: [2.635  1.2025] | Position: [2.51508881 1.04920986]
+Target angle: 0.9069727318351504 | Robot angle: 1.246576775036858 | Diff: -0.33960404320170756 | Rotation Strength: 0.7616934824396824
+Target distance: 0.19461901029629403
+Arrived to point
+=========================================
+Target: [2.64   1.2725] | Position: [2.52127431 1.06632802]
+Target angle: 1.0483178091914578 | Robot angle: 1.2103654920588998 | Diff: -0.16204768286744198 | Rotation Strength: 0.5079062384066202
+Target distance: 0.23791317154525224
+Aligned, walking
+=========================================
+Target: [2.64   1.2725] | Position: [2.52612989 1.07679455]
+Target angle: 1.043833541704437 | Robot angle: 1.1716706016417504 | Diff: -0.1278370599373133 | Rotation Strength: 0.45359295020283474
+Target distance: 0.22642223018322957
+Aligned, walking
+=========================================
+Target: [2.64   1.2725] | Position: [2.53156382 1.08811021]
+Target angle: 1.039186678711033 | Robot angle: 1.1329128239970423 | Diff: -0.0937261452860092 | Rotation Strength: 0.40051473758741585
+Target distance: 0.21391119422534194
+Aligned, walking
+=========================================
+Target: [2.64   1.2725] | Position: [2.53554139 1.09915268]
+Target angle: 1.0284693080451266 | Robot angle: 1.0960170796718982 | Diff: -0.06754777162677161 | Rotation Strength: 0.36124200969557263
+Target distance: 0.20238798593227147
+Aligned, walking
+=========================================
+Target: [2.64   1.2725] | Position: [2.53955636 1.10868927]
+Target angle: 1.0207500489316805 | Robot angle: 1.0590632023604263 | Diff: -0.03831315342874575 | Rotation Strength: 0.3194955773547514
+Target distance: 0.1921532749357766
+Arrived to point
+=========================================
+Target: [2.655  1.3475] | Position: [2.54512661 1.11716977]
+Target angle: 1.1256966565050952 | Robot angle: 1.022122794426589 | Diff: 0.10357386207850627 | Rotation Strength: 0.415656859916392
+Target distance: 0.25519438968605423
+Aligned, walking
+=========================================
+Target: [2.655  1.3475] | Position: [2.54997264 1.12189312]
+Target angle: 1.135100809082079 | Robot angle: 0.9875955943153905 | Diff: 0.14750521476668865 | Rotation Strength: 0.4847665566320515
+Target distance: 0.2488558047498756
+Aligned, walking
+=========================================
+Target: [2.655  1.3475] | Position: [2.55636683 1.12718142]
+Target angle: 1.1498698063713233 | Robot angle: 0.9576569272412723 | Diff: 0.19221287913005103 | Rotation Strength: 0.5556843523792705
+Target distance: 0.2413892720122062
+Aligned, walking
+=========================================
+Target: [2.655  1.3475] | Position: [2.56320823 1.1368433 ]
+Target angle: 1.159863191383577 | Robot angle: 0.9325259077714119 | Diff: 0.2273372836121652 | Rotation Strength: 0.609990931069982
+Target distance: 0.22978679842891053
+Aligned, walking
+=========================================
+Target: [2.655  1.3475] | Position: [2.57366138 1.14992874]
+Target angle: 1.1802509647960875 | Robot angle: 0.9104731795599195 | Diff: 0.269777785236168 | Rotation Strength: 0.6720471651122943
+Target distance: 0.21365948169396437
+Aligned, walking
+=========================================
+Target: [2.655  1.3475] | Position: [2.58341136 1.16222722]
+Target angle: 1.202072346363181 | Robot angle: 0.8934759865479549 | Diff: 0.30859635981522615 | Rotation Strength: 0.7240389473383939
+Target distance: 0.19862259626012058
+Arrived to point
+=========================================
+Target: [2.665  1.3925] | Position: [2.59673663 1.17757351]
+Target angle: 1.263260491112847 | Robot angle: 0.885632031597277 | Diff: 0.3776284595155701 | Rotation Strength: 0.8028269535684273
+Target distance: 0.22550672252811935
+Aligned, walking
+=========================================
+Target: [2.665  1.3925] | Position: [2.60976083 1.19430862]
+Target angle: 1.298978385621246 | Robot angle: 0.8834125068628076 | Diff: 0.4155658787584384 | Rotation Strength: 0.8382920410211508
+Target distance: 0.2057454441010415
+Aligned, walking
+=========================================
+Target: [2.665  1.3925] | Position: [2.62215445 1.21206465]
+Target angle: 1.3376576891149066 | Robot angle: 0.8888158517502536 | Diff: 0.448841837364653 | Rotation Strength: 0.8649954637907088
+Target distance: 0.18545257611111482
+Arrived to point
+=========================================
+Target: [2.665  1.4275] | Position: [2.63452784 1.22888536]
+Target angle: 1.418559858452893 | Robot angle: 0.8977936845253964 | Diff: 0.5207661739274965 | Rotation Strength: 0.9101363114884262
+Target distance: 0.2009386163439436
+Aligned, walking
+=========================================
+Target: [2.665  1.4275] | Position: [2.64512699 1.24488135]
+Target angle: 1.4624004263987596 | Robot angle: 0.9144618222269463 | Diff: 0.5479386041718133 | Rotation Strength: 0.9233164983477454
+Target distance: 0.18369678409197385
+Arrived to point
+=========================================
+Target: [2.665  1.4725] | Position: [2.6541926  1.26160829]
+Target angle: 1.5195949219873972 | Robot angle: 0.9490788217966095 | Diff: 0.5705161001907877 | Rotation Strength: 0.9328940109382224
+Target distance: 0.21116845146737503
+Aligned, walking
+=========================================
+Target: [2.665  1.4725] | Position: [2.6575015  1.27179936]
+Target angle: 1.5334520825744278 | Robot angle: 0.9893624458961199 | Diff: 0.5440896366783079 | Rotation Strength: 0.9215634929606222
+Target distance: 0.20084067313211817
+Aligned, walking
+=========================================
+Target: [2.665  1.4725] | Position: [2.66297437 1.28179707]
+Target angle: 1.5601747953056924 | Robot angle: 1.0289380030994142 | Diff: 0.5312367922062782 | Rotation Strength: 0.9154411591884052
+Target distance: 0.19071368617070192
+Arrived to point
+=========================================
+Target: [2.67   1.5225] | Position: [2.66666031 1.29098668]
+Target angle: 1.5563718423666018 | Robot angle: 1.0718397499266477 | Diff: 0.4845320924399541 | Rotation Strength: 0.8894000113074337
+Target distance: 0.23153740365132838
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.66715532 1.29616213]
+Target angle: 1.5582287142256952 | Robot angle: 1.118825466235677 | Diff: 0.4394032479900183 | Rotation Strength: 0.8578233577033317
+Target distance: 0.22635574779181336
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.6661109  1.29777315]
+Target angle: 1.5534921585796644 | Robot angle: 1.1567395461261345 | Diff: 0.3967526124535299 | Rotation Strength: 0.8213917911667256
+Target distance: 0.22476050440759301
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.66413962 1.2988514 ]
+Target angle: 1.5445988028821809 | Robot angle: 1.2023800044898056 | Diff: 0.34221879839237523 | Rotation Strength: 0.764701840900242
+Target distance: 0.2237253704582996
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.66127177 1.2991317 ]
+Target angle: 1.5317407072084794 | Robot angle: 1.2482354147958583 | Diff: 0.2835052924126211 | Rotation Strength: 0.6910111456527027
+Target distance: 0.22353876164553288
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.65870835 1.29916619]
+Target angle: 1.520279809992914 | Robot angle: 1.2944021500190193 | Diff: 0.22587765997389475 | Rotation Strength: 0.6077780398252002
+Target distance: 0.22361908139008183
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.65765053 1.30242286]
+Target angle: 1.5147408535291937 | Robot angle: 1.337516896749908 | Diff: 0.1772239567792857 | Rotation Strength: 0.5320168199867411
+Target distance: 0.22042335689322368
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.65693234 1.30711403]
+Target angle: 1.5101996935201054 | Robot angle: 1.3798722577898417 | Diff: 0.13032743573026373 | Rotation Strength: 0.45752517325328845
+Target distance: 0.2157820152669771
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.65533389 1.31015563]
+Target angle: 1.5018382809236144 | Robot angle: 1.4197010036608742 | Diff: 0.08213727726274023 | Rotation Strength: 0.38293765889154796
+Target distance: 0.21285024608500924
+Aligned, walking
+=========================================
+Target: [2.67   1.5225] | Position: [2.65467473 1.33504106]
+Target angle: 1.4892250802166807 | Robot angle: 1.4855793364344327 | Diff: 0.003645743782247912 | Rotation Strength: 0.273529087715228
+Target distance: 0.18808434219844852
+Arrived to point
+=========================================
+Target: [2.67   1.5675] | Position: [2.65416669 1.35051611]
+Target angle: 1.4979554648326125 | Robot angle: 1.511017160579879 | Diff: -0.013061695747266455 | Rotation Strength: 0.2856008440491874
+Target distance: 0.21756079977926776
+Aligned, walking
+=========================================
+Target: [2.67   1.5675] | Position: [2.6527494  1.37025381]
+Target angle: 1.4835610969540136 | Robot angle: 1.5347588712321603 | Diff: -0.051197774278146646 | Rotation Strength: 0.33758725217362195
+Target distance: 0.19799910141608698
+Arrived to point
+=========================================
+Target: [2.67   1.6075] | Position: [2.65291669 1.3973817 ]
+Target angle: 1.4896714685770238 | Robot angle: 1.5510281845393417 | Diff: -0.06135671596231784 | Rotation Strength: 0.3521981282553599
+Target distance: 0.21081162146248206
+Aligned, walking
+=========================================
+Target: [2.67   1.6075] | Position: [2.65070433 1.42754934]
+Target angle: 1.4639769369508686 | Robot angle: 1.5610737505692116 | Diff: -0.09709681361834299 | Rotation Strength: 0.405677766703853
+Target distance: 0.1809822135439595
+Arrived to point
+=========================================
+Target: [2.67   1.6425] | Position: [2.64986142 1.45956501]
+Target angle: 1.46115183523567 | Robot angle: 1.5671685847450938 | Diff: -0.10601674950942375 | Rotation Strength: 0.4194390883238378
+Target distance: 0.18404013751507672
+Arrived to point
+=========================================
+Target: [2.67   1.6925] | Position: [2.64938961 1.49275517]
+Target angle: 1.4679766108577388 | Robot angle: 1.5706532763384118 | Diff: -0.102676665480673 | Rotation Strength: 0.41427023086674875
+Target distance: 0.20080534380166223
+Aligned, walking
+=========================================
+Target: [2.67   1.6925] | Position: [2.6466121  1.52544175]
+Target angle: 1.4317018833750321 | Robot angle: 1.5703137420665358 | Diff: -0.13861185869150372 | Rotation Strength: 0.4706414346424078
+Target distance: 0.16868744478059908
+Arrived to point
+=========================================
+Target: [2.67   1.7575] | Position: [2.64519532 1.55868539]
+Target angle: 1.4466748473561175 | Robot angle: 1.5661017715247212 | Diff: -0.11942692416860368 | Rotation Strength: 0.4403591518541854
+Target distance: 0.20035598795781456
+Aligned, walking
+=========================================
+Target: [2.67   1.7575] | Position: [2.64336029 1.59089189]
+Target angle: 1.4122439881390285 | Robot angle: 1.555220723004192 | Diff: -0.14297673486516338 | Rotation Strength: 0.4775696061876762
+Target distance: 0.16872443732202239
+Arrived to point
+=========================================
+Target: [2.67   1.8275] | Position: [2.64159275 1.62205026]
+Target angle: 1.4333988777735494 | Robot angle: 1.5397877870878247 | Diff: -0.10638890931427536 | Rotation Strength: 0.4200161323892395
+Target distance: 0.20740436031113094
+Aligned, walking
+=========================================
+Target: [2.67   1.8275] | Position: [2.64332884 1.64956436]
+Target angle: 1.4220118353742048 | Robot angle: 1.5189818080011772 | Diff: -0.09696997262697238 | Rotation Strength: 0.405483091860244
+Target distance: 0.17992343083871282
+Arrived to point
+=========================================
+Target: [2.67   1.9525] | Position: [2.64385537 1.67869802]
+Target angle: 1.4755975869134375 | Robot angle: 1.5030287864517469 | Diff: -0.027431199538309414 | Rotation Strength: 0.30462546528355516
+Target distance: 0.2750473921153743
+Aligned, walking
+=========================================
+Target: [2.67   1.9525] | Position: [2.64648963 1.70354418]
+Target angle: 1.4766396362764809 | Robot angle: 1.4840728589207774 | Diff: -0.007433222644296578 | Rotation Strength: 0.2783464460510028
+Target distance: 0.25006347007850455
+Aligned, walking
+=========================================
+Target: [2.67   1.9525] | Position: [2.64889283 1.72478887]
+Target angle: 1.4783676771723764 | Robot angle: 1.4610569198834664 | Diff: 0.01731075728890996 | Rotation Strength: 0.29115186650461355
+Target distance: 0.2286872821278662
+Aligned, walking
+=========================================
+Target: [2.67   1.9525] | Position: [2.65087839 1.74431786]
+Target angle: 1.4792029630606542 | Robot angle: 1.4379612545026985 | Diff: 0.041241708557955725 | Rotation Strength: 0.323562638442918
+Target distance: 0.2090584627935864
+Aligned, walking
+=========================================
+Target: [2.67   1.9525] | Position: [2.65344659 1.7648889 ]
+Target angle: 1.4827916792563016 | Robot angle: 1.4153587704307284 | Diff: 0.06743290882557318 | Rotation Strength: 0.3610732961163674
+Target distance: 0.18833995991127672
+Arrived to point
+=========================================
+Target: [2.67   2.0175] | Position: [2.65874536 1.78351321]
+Target angle: 1.5227339169824265 | Robot angle: 1.3847364761660996 | Diff: 0.13799744081632692 | Rotation Strength: 0.46966704278655536
+Target distance: 0.23425730290116448
+Aligned, walking
+=========================================
+Target: [2.67   2.0175] | Position: [2.66488108 1.80265534]
+Target angle: 1.5469747092584312 | Robot angle: 1.3623363419733234 | Diff: 0.18463836728510774 | Rotation Strength: 0.5437489272780588
+Target distance: 0.2149056324399283
+Aligned, walking
+=========================================
+Target: [2.67   2.0175] | Position: [2.6721597  1.82484379]
+Target angle: 1.582005955741752 | Robot angle: 1.3460212661763453 | Diff: 0.23598468956540675 | Rotation Strength: 0.6230056045209623
+Target distance: 0.19266831209435753
+Arrived to point
+=========================================
+Target: [2.67   2.0875] | Position: [2.68024798 1.84509185]
+Target angle: 1.6130469027469552 | Robot angle: 1.329805832351564 | Diff: 0.28324107039539115 | Rotation Strength: 0.6906518793775743
+Target distance: 0.24262467829563705
+Aligned, walking
+=========================================
+Target: [2.67   2.0875] | Position: [2.68766063 1.8673252 ]
+Target angle: 1.650836802810895 | Robot angle: 1.318428378501534 | Diff: 0.332408424309361 | Rotation Strength: 0.7532790410003097
+Target distance: 0.22088195763307086
+Aligned, walking
+=========================================
+Target: [2.67   2.0875] | Position: [2.69577762 1.88947975]
+Target angle: 1.7002450634953359 | Robot angle: 1.313657713516612 | Diff: 0.3865873499787238 | Rotation Strength: 0.8116995612378426
+Target distance: 0.19969102094611407
+Arrived to point
+=========================================
+Target: [2.67   2.1425] | Position: [2.70164555 1.91011424]
+Target angle: 1.7061405992615901 | Robot angle: 1.313984339828405 | Diff: 0.3921562594331851 | Rotation Strength: 0.817058502990859
+Target distance: 0.2345305539338773
+Aligned, walking
+=========================================
+Target: [2.67   2.1425] | Position: [2.70621188 1.92842996]
+Target angle: 1.7383690350729628 | Robot angle: 1.3224048542405287 | Diff: 0.41596418083243414 | Rotation Strength: 0.8386354778141248
+Target distance: 0.2171112208429918
+Aligned, walking
+=========================================
+Target: [2.67   2.1425] | Position: [2.71151327 1.94982315]
+Target angle: 1.783007738587143 | Robot angle: 1.3438514908431687 | Diff: 0.4391562477439743 | Rotation Strength: 0.8576314696357406
+Target distance: 0.1970982536338358
+Arrived to point
+=========================================
+Target: [2.67   2.1875] | Position: [2.71346372 1.9622547 ]
+Target angle: 1.7614152165034547 | Robot angle: 1.3729914514316146 | Diff: 0.38842376507184007 | Rotation Strength: 0.8134799423016951
+Target distance: 0.22940039479115762
+Aligned, walking
+=========================================
+Target: [2.67   2.1875] | Position: [2.71427355 1.97678265]
+Target angle: 1.7778926485906261 | Robot angle: 1.4065245647672073 | Diff: 0.3713680838234188 | Rotation Strength: 0.7964418894852808
+Target distance: 0.21531824598853708
+Aligned, walking
+=========================================
+Target: [2.67   2.1875] | Position: [2.71472493 1.98742532]
+Target angle: 1.7907218082899954 | Robot angle: 1.4433703402236109 | Diff: 0.3473514680663845 | Rotation Strength: 0.770530324905882
+Target distance: 0.2050126764133036
+Aligned, walking
+=========================================
+Target: [2.67   2.1875] | Position: [2.7124899  1.99489476]
+Target angle: 1.7879247330255348 | Robot angle: 1.4853507472349392 | Diff: 0.3025739857905956 | Rotation Strength: 0.7163130233730501
+Target distance: 0.1972363301305747
+Arrived to point
+=========================================
+Target: [2.67   2.2125] | Position: [2.70994624 1.99875548]
+Target angle: 1.7555527716228543 | Robot angle: 1.525574212300162 | Diff: 0.22997855932269218 | Rotation Strength: 0.613983746653405
+Target distance: 0.2174452157234206
+Aligned, walking
+=========================================
+Target: [2.67   2.2125] | Position: [2.70654484 2.0010876 ]
+Target angle: 1.7419652607091267 | Robot angle: 1.5702257024809754 | Diff: 0.17173955822815135 | Rotation Strength: 0.5233150755424711
+Target distance: 0.21454772586323598
+Aligned, walking
+=========================================
+Target: [2.67   2.2125] | Position: [2.70214827 2.00306156]
+Target angle: 1.7231050101452627 | Robot angle: 1.615325441819997 | Diff: 0.1077795683252658 | Rotation Strength: 0.42217431139114325
+Target distance: 0.21189141650674423
+Aligned, walking
+=========================================
+Target: [2.67   2.2125] | Position: [2.6971966  2.00551158]
+Target angle: 1.7014398477284782 | Robot angle: 1.6590027875756705 | Diff: 0.04243706015280768 | Rotation Strength: 0.32523043528332785
+Target distance: 0.20876748291242606
+Aligned, walking
+=========================================
+Target: [2.67   2.2125] | Position: [2.69366516 2.01008654]
+Target angle: 1.687182921129864 | Robot angle: 1.6998701524305861 | Diff: -0.012687231300722246 | Rotation Strength: 0.28511469548042934
+Target distance: 0.20379216646084813
+Aligned, walking
+=========================================
+Target: [2.67   2.2125] | Position: [2.68947875 2.01663173]
+Target angle: 1.6699186230785514 | Robot angle: 1.7382785930157496 | Diff: -0.06835996993719817 | Rotation Strength: 0.36243596352965146
+Target distance: 0.19683444558035199
+Arrived to point
+=========================================
+Target: [2.67   2.2325] | Position: [2.68508046 2.02580821]
+Target angle: 1.6436283502638744 | Robot angle: 1.7746959412311822 | Diff: -0.1310675909673078 | Rotation Strength: 0.45869489791965157
+Target distance: 0.20724120308444513
+Aligned, walking
+=========================================
+Target: [2.67   2.2325] | Position: [2.67934092 2.03165166]
+Target angle: 1.617270175629458 | Robot angle: 1.8067517583367128 | Diff: -0.18948158270725468 | Rotation Strength: 0.5513872224406038
+Target distance: 0.20106543703686244
+Aligned, walking
+=========================================
+Target: [2.67   2.2325] | Position: [2.66866368 2.04459187]
+Target angle: 1.5636848802488945 | Robot angle: 1.8368030575011005 | Diff: -0.273118177252206 | Rotation Strength: 0.6767168368159997
+Target distance: 0.187912883576379
+Arrived to point
+=========================================
+Target: [2.67   2.2475] | Position: [2.65781965 2.05816965]
+Target angle: 1.5065510121496697 | Robot angle: 1.861021944262025 | Diff: -0.35447093211235536 | Rotation Strength: 0.778445787608258
+Target distance: 0.1897217501352594
+Arrived to point
+=========================================
+Target: [2.67   2.2825] | Position: [2.64625207 2.07287394]
+Target angle: 1.457990171196645 | Robot angle: 1.8765474333588212 | Diff: -0.41855726216217626 | Rotation Strength: 0.8408569797748362
+Target distance: 0.21096694173793734
+Aligned, walking
+=========================================
+Target: [2.67   2.2825] | Position: [2.63395495 2.09052532]
+Target angle: 1.3851978098127606 | Robot angle: 1.8829155849462982 | Diff: -0.49771777513353754 | Rotation Strength: 0.8973913453706562
+Target distance: 0.19532927255203877
+Arrived to point
+=========================================
+Target: [2.67   2.3225] | Position: [2.62131972 2.10947554]
+Target angle: 1.346134353948793 | Robot angle: 1.8792063482938373 | Diff: -0.5330719943450442 | Rotation Strength: 0.9163411658627757
+Target distance: 0.21851587706038766
+Aligned, walking
+=========================================
+Target: [2.67   2.3225] | Position: [2.60818388 2.1280873 ]
+Target angle: 1.2629418988751642 | Robot angle: 1.8680286735776175 | Diff: -0.6050867747024533 | Rotation Strength: 0.9454272386457295
+Target distance: 0.20400374987070927
+Aligned, walking
+=========================================
+Target: [2.67   2.3225] | Position: [2.59510869 2.14405463]
+Target angle: 1.1734339214964962 | Robot angle: 1.8524506791585988 | Diff: -0.6790167576621027 | Rotation Strength: 0.9652012424341084
+Target distance: 0.19352379193314775
+Arrived to point
+=========================================
+Target: [2.67   2.3775] | Position: [2.58324194 2.15976923]
+Target angle: 1.1916140487770859 | Robot angle: 1.8283117420078643 | Diff: -0.6366976932307784 | Rotation Strength: 0.9549266515851976
+Target distance: 0.2343792813632621
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.57509366 2.17548436]
+Target angle: 1.1316017285129742 | Robot angle: 1.7964858379367064 | Diff: -0.6648841094237321 | Rotation Strength: 0.9620495174615248
+Target distance: 0.22319841511474794
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.57117923 2.18699352]
+Target angle: 1.0922799605806777 | Robot angle: 1.7580616550553243 | Diff: -0.6657816944746466 | Rotation Strength: 0.9622575944965546
+Target distance: 0.21461189208439907
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56764607 2.19648547]
+Target angle: 1.0561718327316036 | Robot angle: 1.7188581770721383 | Diff: -0.6626863443405346 | Rotation Strength: 0.9615353723655089
+Target distance: 0.2079485175850431
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56439919 2.20318639]
+Target angle: 1.0261162324912725 | Robot angle: 1.6810207767007324 | Diff: -0.6549045442094599 | Rotation Strength: 0.9596606308584912
+Target distance: 0.20380570531780795
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56231907 2.20703991]
+Target angle: 1.0073880971542186 | Robot angle: 1.6399666525283054 | Diff: -0.6325785553740868 | Rotation Strength: 0.9537843961473728
+Target distance: 0.2016229770605402
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56155345 2.20829738]
+Target angle: 1.0008256722224438 | Robot angle: 1.5919706355201386 | Diff: -0.5911449632976948 | Rotation Strength: 0.940662655690809
+Target distance: 0.2009730825109613
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56238367 2.20709849]
+Target angle: 1.0075038734352812 | Robot angle: 1.544541807563883 | Diff: -0.5370379341286018 | Rotation Strength: 0.9182564404261386
+Target distance: 0.20153895789611737
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56377134 2.20585512]
+Target angle: 1.01660550958694 | Robot angle: 1.4957775328549907 | Diff: -0.47917202326805075 | Rotation Strength: 0.8859985194313178
+Target distance: 0.2018576082985533
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.5645222  2.20431969]
+Target angle: 1.02373914172707 | Robot angle: 1.4476390325271824 | Diff: -0.42389989080011237 | Rotation Strength: 0.8453557882920859
+Target distance: 0.20277324409868566
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.5644494  2.20515097]
+Target angle: 1.0212919356922505 | Robot angle: 1.4002299957524773 | Diff: -0.3789380600602268 | Rotation Strength: 0.8041433626243117
+Target distance: 0.20210174759465277
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56353235 2.20781574]
+Target angle: 1.01044026883657 | Robot angle: 1.3562088943888977 | Diff: -0.3457686255523278 | Rotation Strength: 0.7687437768367757
+Target distance: 0.2003200108942892
+Aligned, walking
+=========================================
+Target: [2.67   2.3775] | Position: [2.56321021 2.20847311]
+Target angle: 1.0073279906268606 | Robot angle: 1.312546323687366 | Diff: -0.3052183330605054 | Rotation Strength: 0.7197214348890035
+Target distance: 0.19993536338971038
+Arrived to point
+=========================================
+Target: [2.67   2.4025] | Position: [2.56405145 2.21176225]
+Target angle: 1.063765389141885 | Robot angle: 1.2700087154592739 | Diff: -0.20624332631738884 | Rotation Strength: 0.5776138918982144
+Target distance: 0.21818795768314742
+Aligned, walking
+=========================================
+Target: [2.67   2.4025] | Position: [2.56839222 2.21701263]
+Target angle: 1.0696528563440975 | Robot angle: 1.2266731475910602 | Diff: -0.1570202912469627 | Rotation Strength: 0.499905555177955
+Target distance: 0.21149398606988704
+Aligned, walking
+=========================================
+Target: [2.67   2.4025] | Position: [2.56997273 2.22387324]
+Target angle: 1.0603238245528512 | Robot angle: 1.1874999960270731 | Diff: -0.1271761714742219 | Rotation Strength: 0.4525503796476572
+Target distance: 0.20472658007180813
+Aligned, walking
+=========================================
+Target: [2.67   2.4025] | Position: [2.57252227 2.23208586]
+Target angle: 1.0512158088343861 | Robot angle: 1.153234560394762 | Diff: -0.10201875156037588 | Rotation Strength: 0.41325427773715695
+Target distance: 0.19632342558478752
+Arrived to point
+=========================================
+Target: [2.67   2.4275] | Position: [2.57553275 2.24315802]
+Target angle: 1.0972332208591267 | Robot angle: 1.1187684956602197 | Diff: -0.021535274801093074 | Rotation Strength: 0.2967333533842743
+Target distance: 0.20713770278148835
+Aligned, walking
+=========================================
+Target: [2.67   2.4275] | Position: [2.5807728  2.25776565]
+Target angle: 1.0868106637220833 | Robot angle: 1.087511498807678 | Diff: -0.0007008350855945977 | Rotation Strength: 0.26981953972994455
+Target distance: 0.19175828808028958
+Arrived to point
+=========================================
+Target: [2.67   2.4725] | Position: [2.5885327  2.27322012]
+Target angle: 1.1827196038709893 | Robot angle: 1.057775395396158 | Diff: 0.12494420847483134 | Rotation Strength: 0.449032522545766
+Target distance: 0.21528909226414236
+Aligned, walking
+=========================================
+Target: [2.67   2.4725] | Position: [2.59985317 2.29115134]
+Target angle: 1.201715181165354 | Robot angle: 1.0324455043114016 | Diff: 0.16926967685395233 | Rotation Strength: 0.5193913269577493
+Target distance: 0.19444257273720117
+Arrived to point
+=========================================
+Target: [2.67   2.5075] | Position: [2.61219775 2.31084233]
+Target angle: 1.2849238577639444 | Robot angle: 1.0108246530128708 | Diff: 0.2740992047510735 | Rotation Strength: 0.6780816427726568
+Target distance: 0.20497643766099644
+Aligned, walking
+=========================================
+Target: [2.67   2.5075] | Position: [2.62646631 2.33263499]
+Target angle: 1.326800527477947 | Robot angle: 0.9912596518480052 | Diff: 0.33554087562994184 | Rotation Strength: 0.7569664730911669
+Target distance: 0.1802025331822761
+Arrived to point
+=========================================
+Target: [2.67   2.5275] | Position: [2.64002505 2.35308783]
+Target angle: 1.400596328230109 | Robot angle: 0.9787561665169653 | Diff: 0.42184016171314376 | Rotation Strength: 0.8436338072939761
+Target distance: 0.17696921735658613
+Arrived to point
+=========================================
+Target: [2.67   2.5425] | Position: [2.65296861 2.37538371]
+Target angle: 1.4692335942523869 | Robot angle: 0.9759268399096648 | Diff: 0.4933067543427221 | Rotation Strength: 0.8947765969326178
+Target distance: 0.16798191095248122
+Arrived to point
+=========================================
+Target: [2.67   2.5475] | Position: [2.66718267 2.39585623]
+Target angle: 1.5522198406063739 | Robot angle: 0.9744661338399334 | Diff: 0.5777537067664404 | Rotation Strength: 0.9357215991568962
+Target distance: 0.15166993387932215
+Arrived to point
+=========================================
+Target: [2.675  2.5475] | Position: [2.68122815 2.41382064]
+Target angle: 1.6173528652322355 | Robot angle: 0.9789004405014046 | Diff: 0.638452424730831 | Rotation Strength: 0.9554050333932029
+Target distance: 0.13382436593787952
+Arrived to point
+=========================================
+Target: [2.675  2.5525] | Position: [2.69281172 2.43053914]
+Target angle: 1.7158156662141337 | Robot angle: 0.992710035963448 | Diff: 0.7231056302506857 | Rotation Strength: 0.9734917518676943
+Target distance: 0.12325464765022415
+Arrived to point
+Routine complete.

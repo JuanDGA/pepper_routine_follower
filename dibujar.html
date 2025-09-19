@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujar y Exportar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        canvas {
+            background-color: #f7fafc; /* Color de fondo ligero */
+            border: 2px solid #cbd5e0; /* Borde sutil */
+            cursor: crosshair;
+            touch-action: none; /* Previene el comportamiento de desplazamiento predeterminado en dispositivos táctiles */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="bg-white rounded-xl shadow-lg p-6 w-full max-w-2xl flex flex-col items-center">
+        <h1 class="text-3xl font-bold mb-4 text-gray-800">Canvas para Dibujar</h1>
+        <p class="text-sm text-gray-600 mb-6 text-center">
+            Haz clic y arrastra para dibujar una línea. El canvas se borrará al iniciar una nueva.
+            Las coordenadas exportadas irán de $0.0$ a $3.0$.
+        </p>
+
+        <canvas id="drawingCanvas" width="600" height="600" class="rounded-lg mb-4"></canvas>
+        
+        <button id="exportBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full shadow-md transition-colors duration-300">
+            Exportar Coordenadas
+        </button>
+        
+        <p id="message" class="mt-4 text-gray-500 text-sm hidden"></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const canvas = document.getElementById('drawingCanvas');
+            const exportBtn = document.getElementById('exportBtn');
+            const messageEl = document.getElementById('message');
+            const ctx = canvas.getContext('2d');
+
+            let isDrawing = false;
+            let points = [];
+            let lastPoint = null;
+
+            // Configuración del contexto de dibujo
+            ctx.lineWidth = 4;
+            ctx.lineCap = 'round';
+            ctx.strokeStyle = '#4299e1'; // Color de línea azul
+
+            // Función para convertir las coordenadas de píxel a la escala de 0.0 a 3.0
+            function getTransformedPoint(x, y) {
+                const rect = canvas.getBoundingClientRect();
+                const pixelX = x - rect.left;
+                const pixelY = y - rect.top;
+                const canvasWidth = canvas.width;
+                const canvasHeight = canvas.height;
+
+                // Mapear el píxel a las coordenadas deseadas (0.0 a 3.0)
+                const transformedX = (pixelX / canvasWidth) * 3.0;
+                const transformedY = (pixelY / canvasHeight) * 3.0;
+
+                return {
+                    x: parseFloat(transformedX.toFixed(4)),
+                    y: parseFloat(transformedY.toFixed(4)),
+                    z: 0.0
+                };
+            }
+
+            // Iniciar el dibujo
+            function startDrawing(e) {
+                e.preventDefault();
+                isDrawing = true;
+                points = []; // Borrar puntos de la línea anterior
+
+                // Limpiar el canvas para la nueva línea
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                const { x, y } = e.touches ? e.touches[0] : e;
+                const currentPoint = getTransformedPoint(x, y);
+
+                points.push([currentPoint.x, currentPoint.y, currentPoint.z]);
+                lastPoint = { x: currentPoint.x, y: currentPoint.y };
+
+                ctx.beginPath();
+                ctx.moveTo(x - canvas.getBoundingClientRect().left, y - canvas.getBoundingClientRect().top);
+            }
+
+            // Dibujar mientras se mueve el mouse
+            function draw(e) {
+                if (!isDrawing) return;
+                e.preventDefault();
+
+                const { x, y } = e.touches ? e.touches[0] : e;
+                const currentPoint = getTransformedPoint(x, y);
+
+                // Solo guardar y dibujar si el mouse se ha movido
+                if (lastPoint.x !== currentPoint.x || lastPoint.y !== currentPoint.y) {
+                    points.push([currentPoint.x, currentPoint.y, currentPoint.z]);
+                    lastPoint = { x: currentPoint.x, y: currentPoint.y };
+                    ctx.lineTo(x - canvas.getBoundingClientRect().left, y - canvas.getBoundingClientRect().top);
+                    ctx.stroke();
+                }
+            }
+
+            // Detener el dibujo
+            function stopDrawing() {
+                isDrawing = false;
+                lastPoint = null;
+                ctx.closePath();
+            }
+
+            // Exportar las coordenadas a un archivo de texto
+            function exportCoordinates() {
+                if (points.length === 0) {
+                    showMessage("No hay puntos para exportar. ¡Dibuja una línea primero!", 3000);
+                    return;
+                }
+
+                // Asegurarse de que el formato sea [[x,y,z], [x,y,z], ...]
+                const dataStr = JSON.stringify(points);
+                const blob = new Blob([dataStr], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'coordenadas.txt';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                showMessage("Coordenadas exportadas correctamente como 'coordenadas.txt'.", 3000);
+            }
+
+            // Función para mostrar mensajes temporales al usuario
+            function showMessage(msg, duration) {
+                messageEl.textContent = msg;
+                messageEl.classList.remove('hidden');
+                setTimeout(() => {
+                    messageEl.classList.add('hidden');
+                }, duration);
+            }
+
+            // Event listeners
+            canvas.addEventListener('mousedown', startDrawing);
+            canvas.addEventListener('mousemove', draw);
+            window.addEventListener('mouseup', stopDrawing);
+
+            // Event listeners para dispositivos táctiles
+            canvas.addEventListener('touchstart', startDrawing);
+            canvas.addEventListener('touchmove', draw);
+            window.addEventListener('touchend', stopDrawing);
+
+            exportBtn.addEventListener('click', exportCoordinates);
+        });
+    </script>
+
+</body>
+</html>
