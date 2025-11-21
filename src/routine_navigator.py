@@ -184,7 +184,7 @@ class RoutineNavigator:
         
         self.previous_position = np.array([self.odometry_info.pose.pose.position.x, self.odometry_info.pose.pose.position.y])
         
-        self.line = [[it.y, it.x, it.z] for it in request.line]
+        self.line = [[it.z, it.x, 0] for it in request.line]
         nodes = request.nodes
         
         next_node = len(nodes)
@@ -245,14 +245,54 @@ class RoutineNavigator:
         msg = Twist()
         
         position = np.array([odometry_info.pose.pose.position.x, odometry_info.pose.pose.position.y])
-        target = np.array([self.line[self.target_index][0], self.line[self.target_index][1]])
-        movement_vector = target - position
         
-        target_angle = norm_angle(math.atan2(movement_vector[1], movement_vector[0]))
-        robot_angle = norm_angle(2 * math.atan2(odometry_info.pose.pose.orientation.z, odometry_info.pose.pose.orientation.w))
+        # Cambios
+        # Look Ahead: Por deafult se realizara con los proximos 2-3 puntos
+        look_ahead_count = min(3, len(self.line) - self.target_index)
+        
+        # Curvatura
+        path_curvature = self.calculate_path_curvature(self.target_index, look_ahead=3)
+        
+        # Calcular vector promedio
+        weight_vector = np.array([0.0,0.0])
+        total_weight = 0.0
+        for i in range(look_ahead_count):
+            target_idx = self.target_index + i
+            target = np.array([self.line[target_idx][0], self.line[target_idx][1]])
+            vector = target - position
+            
+            # Peso decreciente
+            weight = 1.0/ (i + 1)
+            weight_vector  += vector * weight
+            total_weight += weight
+        
+        # Normalizar
+        if total_weight>0:
+            weight_vector/= total_weight
+            
+        movement_vector = weight_vector
+        
+        print("In line:", self.line[self.target_index])
+        current_target = np.array([self.line[self.target_index][0], self.line[self.target_index][1]])
+        distance_to_current = np.linalg.norm(current_target - position)
+        
+        # TODO: smooth movement, revisar el cambio
+        speed_factor = 1.0
+        speed_factor *= (1.0-0.6*path_curvature) # Limite de 60% de reduccion de velocidad
+        
+        # No esta alineado
+        
+        # Cambios
+        
+        #target = np.array([self.line[self.target_index][0], self.line[self.target_index][2]])
+        #movement_vector = target - position
+        
+        target_angle = norm_angle(math.atan2(movement_vector[1], movement_vector[0])) # Codigo original
+        robot_angle = norm_angle(2 * math.atan2(odometry_info.pose.pose.orientation.z, odometry_info.pose.pose.orientation.w)) # Codigo original
         
         rotation_diff = norm_angle(target_angle - robot_angle)
         rotation_strength = transform_strength(abs(rotation_diff) / math.pi)
+        speed_factor *= (1.0 - rotation_strength * 0.5)
         # print("=========================================")
         # print("Target:", target, "| Position:", position)
         # print("Target angle:", target_angle, "| Robot angle:", robot_angle, "| Diff:", rotation_diff, "| Rotation Strength:", rotation_strength)
@@ -264,16 +304,72 @@ class RoutineNavigator:
             else:
                 self._rotate_right(msg, rotation_strength)
         
-        if np.linalg.norm(movement_vector) > 0.1:
-            print("Aligned, walking")
-            self._move_forward_relative_to_orientation(msg, 1 - rotation_strength)
+        if distance_to_current > 0.1:
+            print(f"Moving -  curvature: {path_curvature: .2f}, Speed Factor: {speed_factor: .2f}", current_target, position)
+            self._move_forward_relative_to_orientation(msg, speed_factor)
         else:
             self.target_index += 1
-            print("Arrived to point", position, target)
+            print( "Arrived to point", position, current_target)
+        
+        #if np.linalg.norm(movement_vector) > 0.1:
+        #    print("Aligned, walking")
+        #    self._move_forward_relative_to_orientation(msg, 1 - rotation_strength)
+        #else:
+        #    self.target_index += 1
+        #    print("Arrived to point", position, target)
             
         
         self.pub.publish(msg)
         return rotation
+    
+    # Look Ahead requirements: Recalculate path curvature, rotating before target
+    # TODO: Check for a better aproximation
+    
+    def calculate_path_curvature(self, start_idx: int, look_ahead: int=3) -> float:
+        """
+        Calcula la curvatura del camino basandonos en el cambio de direccion
+        entre puntos consecutivos.
+        Retorna un valor entre 0 (recto) o 1 (curva).
+        """
+        # Puede retornar la variacion angular? 
+        
+        if start_idx + look_ahead >= len(self.line):
+            look_ahead = len(self.line) - start_idx - 1
+        if look_ahead < 2:
+            return 0.0
+        
+        angles = []
+        
+        # TODO: Revisar variacion en los ejes.
+        for i in range(look_ahead):
+            p1 = np.array([self.line[start_idx + i][0], self.line[start_idx + i][1]])
+            p2 = np.array([self.line[start_idx + i + 1][0], self.line[start_idx + i + 1][1]])
+            
+            vector = p2 - p1
+            angle = math.atan2(vector[1], vector[0])
+            angles.append(angle)
+        
+        # Calcula la variacion angular total
+        total_angle_change = 0.0
+        for i in range(len(angles)-1):
+            angle_diff = abs(norm_angle(angles[i+1]-angles[i]))
+            total_angle_change += angle_diff
+        
+        # Normalizar
+        curvature = min(1.0, total_angle_change/(math.pi/2))
+        return curvature
+    
+    # TODO: validar el uso de predecir la rotacion con aticipacion
+    def should_start_rotating( self, position: np.ndarray, current_target: np.ndarray, next_target: np.ndarray):
+        distance_to_current = np.linalg.norm(current_target - position)
+        
+        if distance_to_current < 0.5 and self.target_index + 1 < len(self.line):
+            vector_to_next = next_target - current_target
+            angle_to_next = math.atan2(vector_to_next[1], vector_to_next[0])
+            return True, angle_to_next
+        return False, 0.0
+            
+            
 
 if __name__ == "__main__":
     RoutineNavigator()
